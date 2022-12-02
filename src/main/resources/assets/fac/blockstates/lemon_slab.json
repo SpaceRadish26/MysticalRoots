@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "fac:block/lemon_slab"
+    },
+    "type=double": {
+      "model": "fac:block/lemon_block"
+    },
+    "type=top": {
+      "model": "fac:block/lemon_slab_top"
+    }
+  }
+}
