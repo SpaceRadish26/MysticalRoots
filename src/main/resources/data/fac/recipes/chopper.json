@@ -7,16 +7,16 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:iron_ingot"
+      "item": "minecraft:stone"
     },
     "K": {
-      "item": "minecraft:redstone_block"
+      "item": "minecraft:iron_ingot"
     },
     "N": {
-      "item": "minecraft:iron_nugget"
+      "item": "minecraft:oak_log"
     }
   },
   "result": {
-    "item": "fac:speedy_block"
+    "item": "fac:chopper"
   }
 }
