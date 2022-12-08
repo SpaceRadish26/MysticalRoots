@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " K ",
+    " K ",
+    "#N# "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:gold_ingot"
+    },
+    "K": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "fac:saber"
+  }
+}

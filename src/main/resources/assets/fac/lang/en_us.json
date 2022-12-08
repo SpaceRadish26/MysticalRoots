@@ -4,9 +4,16 @@
   "item.fac.firewood": "Firewood",
   "item.fac.man_meme_coin": "Coin of Man Meme",
   "item.fac.chopper": "Chopping Chopper",
+  "item.fac.saber": "Saber",
+  "item.fac.lemon_helmet": "Lemon Helmet",
+  "item.fac.lemon_chest": "Lemon Chest",
+  "item.fac.lemon_leggings": "Lemon Leggings",
+  "item.fac.lemon_boots": "Lemon Boots",
+
+
 
   "block.fac.lemon_block": "Lemon Block",
   "block.fac.speedy_block": "Block of Speed",
 
-  "itemGroup.fac": "Combat & Fantasy"
+  "itemGroup.fac": "Fantasy & Combat"
 }
