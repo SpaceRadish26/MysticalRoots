@@ -1,6 +1,7 @@
 package com.brecht.fac;
 
 import com.brecht.fac.block.ModBlocks;
+import com.brecht.fac.item.ModFoods;
 import com.brecht.fac.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.level.block.Block;
