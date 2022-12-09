@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "fac:item/squirrel_chest"
+    "layer0": "fac:block/pink_rose"
   }
 }

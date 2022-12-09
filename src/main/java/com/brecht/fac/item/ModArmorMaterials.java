@@ -1,12 +1,11 @@
 package com.brecht.fac.item;
 
-import com.brecht.fac.FantasyAndCombat;
+import com.brecht.fac.FantasyAndTheMiddleAges;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.util.LazyLoadedValue;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.ArmorMaterial;
-import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.Ingredient;
 
 import java.util.function.Supplier;
@@ -67,7 +66,7 @@ public enum ModArmorMaterials implements ArmorMaterial {
     }
 
     public String getName() {
-        return FantasyAndCombat.MOD_ID + ":" + this.name;
+        return FantasyAndTheMiddleAges.MOD_ID + ":" + this.name;
     }
 
     public float getToughness() {
