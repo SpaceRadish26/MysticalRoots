@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "age=0": {"model": "fac:block/tomato_stage0"},
+    "age=1": {"model": "fac:block/tomato_stage1"},
+    "age=2": {"model": "fac:block/tomato_stage2"}
+  }
+}

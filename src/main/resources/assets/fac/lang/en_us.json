@@ -12,8 +12,11 @@
   "item.fac.squirrel_boots": "Squirrel Boots",
   "item.fac.banana": "Banana",
   "item.fac.ghost_dust": "Ghost Dust",
+  "item.fac.ghost_bow": "Ghostly Bow",
+  "item.fac.tomato_seeds": "Tomato Seeds",
+  "item.fac.tomato": "Tomato",
 
-
+  "block.fac.christmas_window": "Christmas Window",
   "block.fac.pink_rose": "Pink Rose",
   "block.fac.lemon_block": "Lemon Block",
   "block.fac.speedy_block": "Block of Speed",

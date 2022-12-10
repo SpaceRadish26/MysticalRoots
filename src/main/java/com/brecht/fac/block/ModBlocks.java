@@ -4,6 +4,7 @@ import com.brecht.fac.FantasyAndTheMiddleAges;
 import com.brecht.fac.block.custom.SpeedyBlock;
 import com.brecht.fac.item.ModCreativeModeTab;
 import com.brecht.fac.item.ModItems;
+import com.brecht.fac.item.custom.TomatoPlantBlock;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
@@ -39,7 +40,11 @@ public class ModBlocks {
             () -> new FlowerPotBlock(null, ModBlocks.PINK_ROSE,
                     BlockBehaviour.Properties.copy(Blocks.DANDELION).noOcclusion())
     );
-
+    public static final RegistryObject<Block> CHRISTMAS_WINDOW = registerBlock("christmas_window",
+            () -> new GlassBlock(BlockBehaviour.Properties.copy(Blocks.GLASS).noOcclusion()),
+            ModCreativeModeTab.FAC_TAB);
+    public static final RegistryObject<Block> TOMATO_PLANT = BLOCKS.register("tomato_plant",
+            () -> new TomatoPlantBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion()));
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn, tab);

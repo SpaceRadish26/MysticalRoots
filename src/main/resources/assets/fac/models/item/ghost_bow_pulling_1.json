@@ -1,0 +1,6 @@
+{
+  "parent": "fac:item/ghost_bow",
+  "textures": {
+    "layer0": "fac:item/ghost_bow_pulling_1"
+  }
+}
