@@ -7,6 +7,7 @@ import com.brecht.fac.item.custom.ChopperItem;
 //import com.brecht.fac.item.custom.ManMemeCoinItem;
 import com.brecht.fac.item.custom.ModArmorItem;
 import com.brecht.fac.item.custom.SaberItem;
+import net.minecraft.client.renderer.item.ItemProperties;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -26,6 +27,18 @@ public class ModItems {
 
     public static final RegistryObject<Item> GHOST_DUST = ITEMS.register("ghost_dust",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FAC_TAB)));
+
+    public static final RegistryObject<Item> GHOST_INGOT = ITEMS.register("ghost_ingot",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FAC_TAB)));
+
+
+
+    //TOOLS
+
+    public static final RegistryObject<Item> GHOST_PICKAXE = ITEMS.register("ghost_pickaxe", () -> new PickaxeItem(ModTiers.GHOST, 1, 1f,
+            new Item.Properties().tab(ModCreativeModeTab.FAC_TAB)));
+
+
 
 
 
