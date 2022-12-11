@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "fac:ghost_log"
+    }
+  ],
+  "result": {
+    "item": "fac:ghost_planks",
+    "count": 4
+  }
+}

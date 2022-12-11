@@ -2,6 +2,8 @@ package com.brecht.fac;
 
 import com.brecht.fac.block.ModBlocks;
 import com.brecht.fac.item.ModItems;
+import com.brecht.fac.painting.ModPaintings;
+import com.brecht.fac.sound.ModSounds;
 import com.brecht.fac.util.ModItemProperties;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
@@ -17,17 +19,19 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod(FantasyAndTheMiddleAges.MOD_ID)
-public class FantasyAndTheMiddleAges {
+@Mod(FantasyAndNature.MOD_ID)
+public class FantasyAndNature {
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
     public static final String MOD_ID = "fac";
 
-    public FantasyAndTheMiddleAges() {
+    public FantasyAndNature() {
         // Register the setup method for modloading
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
         ModItems.register(eventBus);
         ModBlocks.register(eventBus);
+        ModSounds.register(eventBus);
+        ModPaintings.register(eventBus);
         eventBus.addListener(this::setup);
         eventBus.addListener(this::clientSetupEvent);
 
@@ -43,6 +47,8 @@ public class FantasyAndTheMiddleAges {
 
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.CHRISTMAS_WINDOW.get(), RenderType.translucent());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.TOMATO_PLANT.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.GHOST_SAPLING.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.GHOST_LEAVES.get(), RenderType.cutout());
         ModItemProperties.addCustomItemProperties();
     }
 

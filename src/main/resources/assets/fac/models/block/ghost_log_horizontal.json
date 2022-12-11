@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "fac:block/ghost_log_top",
+    "side": "fac:block/ghost_log"
+  }
+}

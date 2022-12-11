@@ -1,0 +1,13 @@
+{
+  "guns_for_hire": {
+    "sounds": [
+      {
+        "name": "fac:guns_for_hire",
+        "stream": true
+      }
+    ]
+  }
+
+
+
+}

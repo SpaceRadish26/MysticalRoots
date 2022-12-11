@@ -1,13 +1,13 @@
 package com.brecht.fac.item;
 
-import com.brecht.fac.FantasyAndTheMiddleAges;
+import com.brecht.fac.FantasyAndNature;
 import com.brecht.fac.block.ModBlocks;
 import com.brecht.fac.block.custom.FireWoodItem;
 import com.brecht.fac.item.custom.ChopperItem;
 //import com.brecht.fac.item.custom.ManMemeCoinItem;
 import com.brecht.fac.item.custom.ModArmorItem;
 import com.brecht.fac.item.custom.SaberItem;
-import net.minecraft.client.renderer.item.ItemProperties;
+import com.brecht.fac.sound.ModSounds;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -17,7 +17,7 @@ import net.minecraftforge.registries.RegistryObject;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
-            DeferredRegister.create(ForgeRegistries.ITEMS, FantasyAndTheMiddleAges.MOD_ID);
+            DeferredRegister.create(ForgeRegistries.ITEMS, FantasyAndNature.MOD_ID);
 
     //ITEMS
     public static final RegistryObject<Item> LEMON = ITEMS.register("lemon",
@@ -31,6 +31,8 @@ public class ModItems {
     public static final RegistryObject<Item> GHOST_INGOT = ITEMS.register("ghost_ingot",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FAC_TAB)));
 
+    public static final RegistryObject<Item> GFH_MUSIC_DISC = ITEMS.register("gfh_music_disc",
+            () -> new RecordItem(4, ModSounds.GUNS_FOR_HIRE, new Item.Properties().tab(ModCreativeModeTab.FAC_TAB).stacksTo(1)));
 
 
     //TOOLS

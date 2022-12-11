@@ -1,6 +1,6 @@
 package com.brecht.fac.painting;
 
-import com.brecht.fac.FantasyAndTheMiddleAges;
+import com.brecht.fac.FantasyAndNature;
 import net.minecraft.world.entity.decoration.Motive;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -9,7 +9,7 @@ import net.minecraftforge.registries.RegistryObject;
 
 public class ModPaintings {
     public static final DeferredRegister<Motive> PAINTING_MOTIVES =
-            DeferredRegister.create(ForgeRegistries.PAINTING_TYPES, FantasyAndTheMiddleAges.MOD_ID);
+            DeferredRegister.create(ForgeRegistries.PAINTING_TYPES, FantasyAndNature.MOD_ID);
 
     public static final RegistryObject<Motive> CLOUDY_DAY =
             PAINTING_MOTIVES.register("cloudy_day", () -> new Motive(16,16));

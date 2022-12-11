@@ -17,11 +17,17 @@
   "item.fac.tomato": "Tomato",
   "item.fac.ghost_pickaxe": "Ghostly Pickaxe",
   "item.fac.ghost_ingot": "Ghostly Ingot",
+  "item.fac.gfh_music_disc": "Guns for Hire -Woodland Kids",
 
+  "block.fac.ghost_leaves": "Ghost Leaves",
+  "block.fac.ghost_sapling": "Ghost Sapling",
+  "block.fac.ghost_log": "Ghost Log",
+  "block.fac.ghost_planks": "Ghost Planks",
+  "block.fac.ghost_wood": "Ghost Wood",
   "block.fac.christmas_window": "Christmas Window",
   "block.fac.pink_rose": "Pink Rose",
   "block.fac.lemon_block": "Lemon Block",
   "block.fac.speedy_block": "Block of Speed",
 
-  "itemGroup.fac": "Fantasy & Combat"
+  "itemGroup.fac": "Fantasy & Nature"
 }
