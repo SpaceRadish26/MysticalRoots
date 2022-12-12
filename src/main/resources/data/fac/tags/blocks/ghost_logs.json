@@ -2,8 +2,6 @@
   "replace": false,
   "values": [
     "fac:ghost_log",
-    "fac:ghost_wood",
-
-
+    "fac:ghost_wood"
   ]
 }

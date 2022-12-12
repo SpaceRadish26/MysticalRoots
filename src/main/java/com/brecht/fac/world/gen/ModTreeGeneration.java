@@ -23,5 +23,12 @@ public class ModTreeGeneration {
 
             base.add(ModPlacedFeatures.GHOST_PLACED);
         }
+
+        if(types.contains(BiomeDictionary.Type.HILLS)) {
+            List<Holder<PlacedFeature>> base =
+                    event.getGeneration().getFeatures(GenerationStep.Decoration.VEGETAL_DECORATION);
+
+            base.add(ModPlacedFeatures.SAKURA_PLACED);
+        }
     }
 }

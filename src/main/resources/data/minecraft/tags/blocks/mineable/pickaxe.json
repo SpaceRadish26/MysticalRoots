@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
-    "fac:lemon_block"
+    "fac:lemon_block",
+    "fac:ghost_ore",
+    "fac:deepslate_ghost_ore"
   ]
 }

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "age=0": {"model": "fac:block/grapes_stage0"},
+    "age=1": {"model": "fac:block/grapes_stage1"},
+    "age=2": {"model": "fac:block/grapes_stage2"}
+  }
+}

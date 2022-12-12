@@ -1,4 +1,4 @@
-package com.brecht.fac.item.custom;
+package com.brecht.fac.block.custom;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.world.entity.player.Player;

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "KK ",
+    "KK ",
+    " #  "
+  ],
+  "key": {
+    "#": {
+      "item": "fac:ghost_planks"
+    },
+    "K": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "fac:slashing_jack"
+  }
+}

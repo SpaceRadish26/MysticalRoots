@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "#fac:ghost_logs"
+    "#fac:ghost_logs",
+    "#fac:sakura_logs"
   ]
 }

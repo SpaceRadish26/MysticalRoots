@@ -1,6 +1,12 @@
 {
   "replace": false,
   "values": [
-    "fac:lemon_block"
+    "fac:lemon_block",
+    "fac:ghost_log",
+    "fac:ghost_planks",
+    "fac:ghost_wood",
+    "fac:sakura_log",
+    "fac:sakura:wood",
+    "fac:sakura_planks"
   ]
 }

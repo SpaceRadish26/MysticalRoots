@@ -1,4 +1,4 @@
-package com.brecht.fac.item.custom;
+package com.brecht.fac.block.custom;
 
 import com.brecht.fac.item.ModItems;
 import net.minecraft.world.level.ItemLike;

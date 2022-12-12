@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    " K ",
+    "K#K"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:block/glass_block"
+    },
+    "K": {
+      "item": "fac:grapes"
+    }
+  },
+  "result": {
+    "item": "fac:wine"
+  }
+}

@@ -37,7 +37,7 @@ public class ModItems {
 
     //TOOLS
 
-    public static final RegistryObject<Item> GHOST_PICKAXE = ITEMS.register("ghost_pickaxe", () -> new PickaxeItem(ModTiers.GHOST, 1, 1f,
+    public static final RegistryObject<Item> GHOST_PICKAXE = ITEMS.register("ghost_pickaxe", () -> new PickaxeItem(ModTiers.GHOST, 1, 2f,
             new Item.Properties().tab(ModCreativeModeTab.FAC_TAB)));
 
 
@@ -52,8 +52,20 @@ public class ModItems {
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FAC_TAB).food(ModFoods.BANANA)));
     public static final RegistryObject<Item> TOMATO = ITEMS.register("tomato",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FAC_TAB).food(ModFoods.TOMATO)));
+    public static final RegistryObject<Item> GRAPES = ITEMS.register("grapes",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FAC_TAB).food(ModFoods.GRAPES)));
+    public static final RegistryObject<Item> WINE = ITEMS.register("wine",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FAC_TAB).food(ModFoods.WINE)));
+
+
+
+
+    //SEEDS
     public static final RegistryObject<Item> TOMATO_SEEDS = ITEMS.register("tomato_seeds",
             () -> new ItemNameBlockItem(ModBlocks.TOMATO_PLANT.get(), new Item.Properties().tab(ModCreativeModeTab.FAC_TAB)));
+
+    public static final RegistryObject<Item> GRAPES_SEEDS = ITEMS.register("grapes_seeds",
+            () -> new ItemNameBlockItem(ModBlocks.GRAPES_PLANT.get(), new Item.Properties().tab(ModCreativeModeTab.FAC_TAB)));
 
 
 
@@ -71,12 +83,15 @@ public class ModItems {
 
     //WEAPONS
     public static final RegistryObject<Item> CHOPPER = ITEMS.register("chopper",
-            () -> new ChopperItem(ModTiers.LEMON, 2, 3f, new Item.Properties().tab(ModCreativeModeTab.FAC_TAB).durability(400)
+            () -> new ChopperItem(ModTiers.LEMON, 2, 1f, new Item.Properties().tab(ModCreativeModeTab.FAC_TAB).durability(400)
     ));
     public static final RegistryObject<Item> SABER = ITEMS.register("saber",
-            () -> new SaberItem(Tiers.IRON, 3, 4f, new Item.Properties().tab(ModCreativeModeTab.FAC_TAB)));
+            () -> new SaberItem(Tiers.IRON, 3, 2.5f, new Item.Properties().tab(ModCreativeModeTab.FAC_TAB)));
     public static final RegistryObject<Item> GHOST_BOW = ITEMS.register("ghost_bow",
             () -> new BowItem(new Item.Properties().tab(ModCreativeModeTab.FAC_TAB).durability(500)));
+
+    public static final RegistryObject<Item> SLASHING_JACK = ITEMS.register("slashing_jack",
+            () -> new SwordItem(Tiers.DIAMOND, 3, 2f, new Item.Properties().tab(ModCreativeModeTab.FAC_TAB)));
 
 
 
