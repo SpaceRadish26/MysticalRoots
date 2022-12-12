@@ -1,46 +1,22 @@
 
-Source installation information for modders
+Welcome to Fantasy & Nature, my first Java 1.18.2 minecraft mod
 -------------------------------------------
-This code follows the Minecraft Forge installation methodology. It will apply
-some small patches to the vanilla MCP source code, giving you and it access 
-to some of the data and functions you need to build a successful mod.
+The contents of the mod will range from tomatos to ghosts to penguins and more.
+I'm planning to add a wide variety of weapons too so there'll be many a way to defeat the new enemies.
+Building is an essential part of Minecraft so there will be new blocks to experiment with.
 
-Note also that the patches are built against "un-renamed" MCP source code (aka
-SRG Names) - this means that you will not be able to read them directly against
-normal code.
+The world gen features such as the ghost trees will be available in current biomes, so there'll be no need to start a new world after updates.
 
-Setup Process:
-==============================
+Since this is my first mod please excuse some textures, I'm still proud of the new Ghostly Pickaxe and the Ghost planks however.
 
-Step 1: Open your command-line and browse to the folder where you extracted the zip file.
+------------------->PREVIEWS & SCREENSHOTS<------------------------
+Available on curseforge ;)
 
-Step 2: You're left with a choice.
-If you prefer to use Eclipse:
-1. Run the following command: `gradlew genEclipseRuns` (`./gradlew genEclipseRuns` if you are on Mac/Linux)
-2. Open Eclipse, Import > Existing Gradle Project > Select Folder 
-   or run `gradlew eclipse` to generate the project.
+-------------------->Setup<-----------------------
 
-If you prefer to use IntelliJ:
-1. Open IDEA, and import project.
-2. Select your build.gradle file and have it import.
-3. Run the following command: `gradlew genIntellijRuns` (`./gradlew genIntellijRuns` if you are on Mac/Linux)
-4. Refresh the Gradle Project in IDEA if required.
+Step 1: Minecraft forge 1.18.2 needs to be installed.
 
-If at any point you are missing libraries in your IDE, or you've run into problems you can 
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
+Step 2: Download the jar from curseforge (soon available).
 
-Mapping Names:
-=============================
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license, if you do not agree with it you can change your mapping names to other crowdsourced names in your 
-build.gradle. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/MinecraftForge/MCPConfig/blob/master/Mojang.md
+Step 3: Drag the jar into your mods folder.
 
-Additional Resources: 
-=========================
-Community Documentation: http://mcforge.readthedocs.io/en/latest/gettingstarted/  
-LexManos' Install Video: https://www.youtube.com/watch?v=8VEdtQLuLO0  
-Forge Forum: https://forums.minecraftforge.net/  
-Forge Discord: https://discord.gg/UvedJ9m  
