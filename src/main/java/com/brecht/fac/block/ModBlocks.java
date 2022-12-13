@@ -69,6 +69,10 @@ public class ModBlocks {
             ModCreativeModeTab.FAC_TAB);
     public static final RegistryObject<Block> LEMON_SLAB = registerBlock("lemon_slab",
             () -> new SlabBlock(BlockBehaviour.Properties.of(Material.CACTUS).strength(2f)), ModCreativeModeTab.FAC_TAB);
+    public static final RegistryObject<Block> GHOST_SLAB = registerBlock("ghost_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2f)), ModCreativeModeTab.FAC_TAB);
+    public static final RegistryObject<Block> SAKURA_SLAB = registerBlock("sakura_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.CACTUS).strength(2f)), ModCreativeModeTab.FAC_TAB);
 
 
 

@@ -27,6 +27,10 @@
   "item.fac.fire_sword": "Fiery Sword",
   "item.fac.grapes": "Grapes",
 
+  "block.fac.lemon_slab": "Lemon Slab",
+  "block.fac.lemon_stairs": "Lemon Stairs",
+  "block.fac.sakura_slab": "Sakura Slab",
+  "block.fac.ghost_slab": "Ghost Slab",
   "block.fac.orange_tulip": "Orange Tulip",
   "block.fac.sakura_leaves": "Sakura Leaves",
   "block.fac.sakura_log": "Sakura log",

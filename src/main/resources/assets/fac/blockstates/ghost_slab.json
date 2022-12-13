@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "fac:block/ghost_slab"
+    },
+    "type=double": {
+      "model": "fac:block/ghost_planks"
+    },
+    "type=top": {
+      "model": "fac:block/ghost_slab_top"
+    }
+  }
+}
