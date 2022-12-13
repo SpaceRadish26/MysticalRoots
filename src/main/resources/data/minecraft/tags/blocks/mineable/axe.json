@@ -5,8 +5,13 @@
     "fac:ghost_log",
     "fac:ghost_planks",
     "fac:ghost_wood",
+    "fac:ghost_slab",
+    "fac:ghost_stairs",
     "fac:sakura_log",
     "fac:sakura:wood",
-    "fac:sakura_planks"
+    "fac:sakura_planks",
+    "fac.sakura_slab",
+    "fac.sakura_stairs"
+
   ]
 }

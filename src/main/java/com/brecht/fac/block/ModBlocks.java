@@ -73,7 +73,12 @@ public class ModBlocks {
             () -> new SlabBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2f)), ModCreativeModeTab.FAC_TAB);
     public static final RegistryObject<Block> SAKURA_SLAB = registerBlock("sakura_slab",
             () -> new SlabBlock(BlockBehaviour.Properties.of(Material.CACTUS).strength(2f)), ModCreativeModeTab.FAC_TAB);
-
+    public static final RegistryObject<Block> GHOST_STAIRS = registerBlock("ghost_stairs",
+            () -> new StairBlock(() -> ModBlocks.GHOST_PLANKS.get().defaultBlockState(), BlockBehaviour.Properties.of(Material.WOOD).strength(2f)),
+            ModCreativeModeTab.FAC_TAB);
+    public static final RegistryObject<Block> SAKURA_STAIRS = registerBlock("sakura_stairs",
+            () -> new StairBlock(() -> ModBlocks.SAKURA_PLANKS.get().defaultBlockState(), BlockBehaviour.Properties.of(Material.WOOD).strength(2f)),
+            ModCreativeModeTab.FAC_TAB);
 
 
     //FLOWERS
