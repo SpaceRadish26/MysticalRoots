@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " K ",
+    "PK ",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:gold_ingot"
+    },
+    "K": {
+      "item": "minecraft:iron_ingot"
+    },
+    "P": {
+      "item": "minecraft:lava_bucket"
+    }
+  },
+  "result": {
+    "item": "fac:fire_sword"
+  }
+}

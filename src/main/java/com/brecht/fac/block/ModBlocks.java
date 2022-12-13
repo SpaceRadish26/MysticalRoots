@@ -80,6 +80,13 @@ public class ModBlocks {
             () -> new FlowerPotBlock(null, ModBlocks.PINK_ROSE,
                     BlockBehaviour.Properties.copy(Blocks.DANDELION).noOcclusion())
     );
+    public static final RegistryObject<Block> ORANGE_TULIP = registerBlock("orange_tulip",
+            () -> new FlowerBlock(MobEffects.REGENERATION, 4, BlockBehaviour.Properties.copy(Blocks.DANDELION).noOcclusion()),
+            ModCreativeModeTab.FAC_TAB);
+    public static final RegistryObject<Block> POTTED_ORANGE_TULIP = BLOCKS.register("potted_orange_tulip",
+            () -> new FlowerPotBlock(null, ModBlocks.ORANGE_TULIP,
+                    BlockBehaviour.Properties.copy(Blocks.DANDELION).noOcclusion())
+    );
 
 
     //GLASS

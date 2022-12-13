@@ -57,11 +57,15 @@ public class ModConfiguredFeatures {
 
 
 
-
+    //FLOWERS
     public static final Holder<ConfiguredFeature<RandomPatchConfiguration, ?>> PINK_ROSE =
             FeatureUtils.register("flower_pink_rose", Feature.FLOWER,
                     new RandomPatchConfiguration(16,6,2,PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
                             new SimpleBlockConfiguration(BlockStateProvider.simple(ModBlocks.PINK_ROSE.get())))));
+    public static final Holder<ConfiguredFeature<RandomPatchConfiguration, ?>> ORANGE_TULIP =
+            FeatureUtils.register("flower_orange_tulip", Feature.FLOWER,
+                    new RandomPatchConfiguration(16,6,2,PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
+                            new SimpleBlockConfiguration(BlockStateProvider.simple(ModBlocks.ORANGE_TULIP.get())))));
 
     public static final List<OreConfiguration.TargetBlockState> OVERWORLD_GHOST_ORE = List.of(
             OreConfiguration.target(OreFeatures.STONE_ORE_REPLACEABLES, ModBlocks.GHOST_ORE.get().defaultBlockState()),

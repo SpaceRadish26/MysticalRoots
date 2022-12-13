@@ -23,7 +23,11 @@
   "item.fac.grapes_seeds": "Grape Seeds",
   "item.fac.wine": "Wine",
   "item.fac.sakura_sapling": "Sakura Sapling",
+  "item.fac.hammer": "Hammer",
+  "item.fac.fire_sword": "Fiery Sword",
+  "item.fac.grapes": "Grapes",
 
+  "block.fac.orange_tulip": "Orange Tulip",
   "block.fac.sakura_leaves": "Sakura Leaves",
   "block.fac.sakura_log": "Sakura log",
   "block.fac.sakura_planks": "Sakura Planks",

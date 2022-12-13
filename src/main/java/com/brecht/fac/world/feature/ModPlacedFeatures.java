@@ -18,6 +18,9 @@ public class ModPlacedFeatures {
     public static final Holder<PlacedFeature> PINK_ROSE_PLACED = PlacementUtils.register("pink_rose_placed",
             ModConfiguredFeatures.PINK_ROSE, RarityFilter.onAverageOnceEvery(25),
             InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome());
+    public static final Holder<PlacedFeature> ORANGE_TULIP_PLACED = PlacementUtils.register("orange_tulip_placed",
+            ModConfiguredFeatures.ORANGE_TULIP, RarityFilter.onAverageOnceEvery(25),
+            InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome());
 
     public static final Holder<PlacedFeature> GHOST_ORE_PLACED = PlacementUtils.register("ghost_ore_placed",
             ModConfiguredFeatures.GHOST_ORE, ModOrePlacement.rareOrePlacement(5,

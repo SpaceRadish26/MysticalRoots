@@ -5,6 +5,7 @@ import com.brecht.fac.block.ModBlocks;
 import com.brecht.fac.block.custom.FireWoodItem;
 import com.brecht.fac.item.custom.ChopperItem;
 //import com.brecht.fac.item.custom.ManMemeCoinItem;
+import com.brecht.fac.item.custom.HammerItem;
 import com.brecht.fac.item.custom.ModArmorItem;
 import com.brecht.fac.item.custom.SaberItem;
 import com.brecht.fac.sound.ModSounds;
@@ -39,7 +40,8 @@ public class ModItems {
 
     public static final RegistryObject<Item> GHOST_PICKAXE = ITEMS.register("ghost_pickaxe", () -> new PickaxeItem(ModTiers.GHOST, 1, 2f,
             new Item.Properties().tab(ModCreativeModeTab.FAC_TAB)));
-
+    public static final RegistryObject<Item> HAMMER = ITEMS.register("hammer", () -> new HammerItem(Tiers.DIAMOND, 1, 2f,
+            new Item.Properties().tab(ModCreativeModeTab.FAC_TAB)));
 
 
 
@@ -83,15 +85,17 @@ public class ModItems {
 
     //WEAPONS
     public static final RegistryObject<Item> CHOPPER = ITEMS.register("chopper",
-            () -> new ChopperItem(ModTiers.LEMON, 2, 1f, new Item.Properties().tab(ModCreativeModeTab.FAC_TAB).durability(400)
+            () -> new ChopperItem(Tiers.STONE, 3, 0.7f, new Item.Properties().tab(ModCreativeModeTab.FAC_TAB).durability(400)
     ));
     public static final RegistryObject<Item> SABER = ITEMS.register("saber",
-            () -> new SaberItem(Tiers.IRON, 3, 2.5f, new Item.Properties().tab(ModCreativeModeTab.FAC_TAB)));
+            () -> new SaberItem(Tiers.IRON, 3, 1.5f, new Item.Properties().tab(ModCreativeModeTab.FAC_TAB).durability(500)));
     public static final RegistryObject<Item> GHOST_BOW = ITEMS.register("ghost_bow",
             () -> new BowItem(new Item.Properties().tab(ModCreativeModeTab.FAC_TAB).durability(500)));
 
     public static final RegistryObject<Item> SLASHING_JACK = ITEMS.register("slashing_jack",
-            () -> new SwordItem(Tiers.DIAMOND, 3, 2f, new Item.Properties().tab(ModCreativeModeTab.FAC_TAB)));
+            () -> new SwordItem(Tiers.DIAMOND, 4, 0.8f, new Item.Properties().tab(ModCreativeModeTab.FAC_TAB).durability(1200)));
+    public static final RegistryObject<Item> FIRE_SWORD = ITEMS.register("fire_sword",
+            () -> new SwordItem(Tiers.IRON, 4, 0.8f, new Item.Properties().tab(ModCreativeModeTab.FAC_TAB).durability(700)));
 
 
 

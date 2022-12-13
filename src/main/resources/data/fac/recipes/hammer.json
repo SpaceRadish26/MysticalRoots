@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "K#K",
+    " N ",
+    " N "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:diamond"
+    },
+    "N": {
+      "item": "minecraft:iron_ingot"
+    },
+    "K": {
+      "item": "minecraft:stone"
+    }
+  },
+  "result": {
+    "item": "fac:hammer"
+  }
+}
