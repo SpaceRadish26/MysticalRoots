@@ -34,13 +34,14 @@ public class ModItems {
 
     public static final RegistryObject<Item> GFH_MUSIC_DISC = ITEMS.register("gfh_music_disc",
             () -> new RecordItem(4, ModSounds.GUNS_FOR_HIRE, new Item.Properties().tab(ModCreativeModeTab.FAC_TAB).stacksTo(1)));
-
+    public static final RegistryObject<Item> FOREST_ESSENCE = ITEMS.register("forest_essence",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FAC_TAB)));
 
     //TOOLS
 
-    public static final RegistryObject<Item> GHOST_PICKAXE = ITEMS.register("ghost_pickaxe", () -> new PickaxeItem(ModTiers.GHOST, 1, 2f,
+    public static final RegistryObject<Item> GHOST_PICKAXE = ITEMS.register("ghost_pickaxe", () -> new PickaxeItem(ModTiers.GHOST, -4, 0f,
             new Item.Properties().tab(ModCreativeModeTab.FAC_TAB)));
-    public static final RegistryObject<Item> HAMMER = ITEMS.register("hammer", () -> new HammerItem(Tiers.DIAMOND, 1, 2f,
+    public static final RegistryObject<Item> HAMMER = ITEMS.register("hammer", () -> new HammerItem(Tiers.DIAMOND, 0, -2.8f,
             new Item.Properties().tab(ModCreativeModeTab.FAC_TAB)));
 
 
@@ -85,19 +86,20 @@ public class ModItems {
 
     //WEAPONS
     public static final RegistryObject<Item> CHOPPER = ITEMS.register("chopper",
-            () -> new ChopperItem(Tiers.STONE, 3, 0.7f, new Item.Properties().tab(ModCreativeModeTab.FAC_TAB).durability(400)
+            () -> new ChopperItem(Tiers.STONE, 5, -2.9f, new Item.Properties().tab(ModCreativeModeTab.FAC_TAB).durability(400)
     ));
     public static final RegistryObject<Item> SABER = ITEMS.register("saber",
-            () -> new SaberItem(Tiers.IRON, 3, 1.5f, new Item.Properties().tab(ModCreativeModeTab.FAC_TAB).durability(500)));
+            () -> new SaberItem(Tiers.IRON, 3, 0f, new Item.Properties().tab(ModCreativeModeTab.FAC_TAB).durability(500)));
     public static final RegistryObject<Item> GHOST_BOW = ITEMS.register("ghost_bow",
             () -> new BowItem(new Item.Properties().tab(ModCreativeModeTab.FAC_TAB).durability(500)));
 
     public static final RegistryObject<Item> SLASHING_JACK = ITEMS.register("slashing_jack",
-            () -> new SwordItem(Tiers.DIAMOND, 4, 0.8f, new Item.Properties().tab(ModCreativeModeTab.FAC_TAB).durability(1200)));
+            () -> new SwordItem(Tiers.DIAMOND, 4, -2.2f, new Item.Properties().tab(ModCreativeModeTab.FAC_TAB).durability(1200)));
     public static final RegistryObject<Item> FIRE_SWORD = ITEMS.register("fire_sword",
-            () -> new SwordItem(Tiers.IRON, 4, 0.8f, new Item.Properties().tab(ModCreativeModeTab.FAC_TAB).durability(700)));
+            () -> new SwordItem(Tiers.IRON, 4, -2.2f, new Item.Properties().tab(ModCreativeModeTab.FAC_TAB).durability(700)));
 
-
+    public static final RegistryObject<Item> BO_STAFF = ITEMS.register("bo_staff",
+            () -> new SwordItem(Tiers.WOOD, 4, -2.8f, new Item.Properties().tab(ModCreativeModeTab.FAC_TAB).durability(700)));
 
     //ARMOR
     public static final RegistryObject<Item> SQUIRREL_HELMET = ITEMS.register("squirrel_helmet", () -> new ModArmorItem(ModArmorMaterials.SQUIRREL, EquipmentSlot.HEAD, new Item.Properties().tab(ModCreativeModeTab.FAC_TAB)));
@@ -105,7 +107,10 @@ public class ModItems {
     public static final RegistryObject<Item> SQUIRREL_LEGGINGS = ITEMS.register("squirrel_leggings", () -> new ArmorItem(ModArmorMaterials.SQUIRREL, EquipmentSlot.LEGS, new Item.Properties().tab(ModCreativeModeTab.FAC_TAB)));
     public static final RegistryObject<Item> SQUIRREL_BOOTS = ITEMS.register("squirrel_boots", () -> new ArmorItem(ModArmorMaterials.SQUIRREL, EquipmentSlot.FEET, new Item.Properties().tab(ModCreativeModeTab.FAC_TAB)));
     //public static final RegistryObject<Item> MAN_MEME_COIN = ITEMS.register("man_meme_coin", () -> new ManMemeCoinItem(new Item.Properties().tab(ModCreativeModeTab.FAC_TAB)));
-
+    public static final RegistryObject<Item> FOREST_HELMET = ITEMS.register("forest_helmet", () -> new ModArmorItem(ModArmorMaterials.FOREST, EquipmentSlot.HEAD, new Item.Properties().tab(ModCreativeModeTab.FAC_TAB)));
+    public static final RegistryObject<Item> FOREST_CHESTPLATE = ITEMS.register("forest_chestplate", () -> new ArmorItem(ModArmorMaterials.FOREST, EquipmentSlot.CHEST, new Item.Properties().tab(ModCreativeModeTab.FAC_TAB)));
+    public static final RegistryObject<Item> FOREST_LEGGINGS = ITEMS.register("forest_leggings", () -> new ArmorItem(ModArmorMaterials.FOREST, EquipmentSlot.LEGS, new Item.Properties().tab(ModCreativeModeTab.FAC_TAB)));
+    public static final RegistryObject<Item> FOREST_BOOTS = ITEMS.register("forest_boots", () -> new ArmorItem(ModArmorMaterials.FOREST, EquipmentSlot.FEET, new Item.Properties().tab(ModCreativeModeTab.FAC_TAB)));
     public static void register(IEventBus eventbus) {
         ITEMS.register(eventbus);
     }

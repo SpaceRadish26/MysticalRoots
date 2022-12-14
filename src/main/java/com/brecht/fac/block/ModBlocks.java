@@ -31,9 +31,9 @@ public class ModBlocks {
 
     //WOOD
     public static final RegistryObject<Block> GHOST_LOG = registerBlock("ghost_log",
-            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG).strength(2f)), ModCreativeModeTab.FAC_TAB);
+            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG).strength(0.4f)), ModCreativeModeTab.FAC_TAB);
     public static final RegistryObject<Block> GHOST_WOOD = registerBlock("ghost_wood",
-            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).strength(2f)), ModCreativeModeTab.FAC_TAB);
+            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).strength(0.4f)), ModCreativeModeTab.FAC_TAB);
     public static final RegistryObject<Block> GHOST_PLANKS = registerBlock("ghost_planks",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)), ModCreativeModeTab.FAC_TAB);
     public static final RegistryObject<Block> GHOST_LEAVES = registerBlock("ghost_leaves",
@@ -43,9 +43,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> SAKURA_PLANKS = registerBlock("sakura_planks",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)), ModCreativeModeTab.FAC_TAB);
     public static final RegistryObject<Block> SAKURA_LOG = registerBlock("sakura_log",
-            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG).strength(2f)), ModCreativeModeTab.FAC_TAB);
+            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG).strength(0.5f)), ModCreativeModeTab.FAC_TAB);
     public static final RegistryObject<Block> SAKURA_WOOD = registerBlock("sakura_wood",
-            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).strength(2f)), ModCreativeModeTab.FAC_TAB);
+            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).strength(0.5f)), ModCreativeModeTab.FAC_TAB);
     public static final RegistryObject<Block> SAKURA_LEAVES = registerBlock("sakura_leaves",
             () -> new LeavesBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES)), ModCreativeModeTab.FAC_TAB);
     public static final RegistryObject<Block> SAKURA_SAPLING = registerBlock("sakura_sapling",
@@ -53,31 +53,31 @@ public class ModBlocks {
 
     //ORES
     public static final RegistryObject<Block> GHOST_ORE = registerBlock("ghost_ore",
-            () -> new OreBlock(BlockBehaviour.Properties.copy(Blocks.GOLD_ORE).strength(3f)), ModCreativeModeTab.FAC_TAB);
+            () -> new OreBlock(BlockBehaviour.Properties.copy(Blocks.GOLD_ORE).strength(1f)), ModCreativeModeTab.FAC_TAB);
     public static final RegistryObject<Block> DEEPSLATE_GHOST_ORE = registerBlock("deepslate_ghost_ore",
-            () -> new OreBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_GOLD_ORE).strength(3f)), ModCreativeModeTab.FAC_TAB);
+            () -> new OreBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_GOLD_ORE).strength(1.5f)), ModCreativeModeTab.FAC_TAB);
 
 
 
     //BUILDING BLOCKS
     public static final RegistryObject<Block> LEMON_BLOCK = registerBlock("lemon_block",
-            () -> new Block(BlockBehaviour.Properties.of(Material.CACTUS).strength(2f)), ModCreativeModeTab.FAC_TAB);
+            () -> new Block(BlockBehaviour.Properties.of(Material.CACTUS).strength(0.8f)), ModCreativeModeTab.FAC_TAB);
     public static final RegistryObject<Block> SPEEDY_BLOCK = registerBlock("speedy_block",
-            () -> new SpeedyBlock(BlockBehaviour.Properties.of(Material.STONE).strength(3f)), ModCreativeModeTab.FAC_TAB);
+            () -> new SpeedyBlock(BlockBehaviour.Properties.of(Material.STONE).strength(0.9f)), ModCreativeModeTab.FAC_TAB);
     public static final RegistryObject<Block> LEMON_STAIRS = registerBlock("lemon_stairs",
-            () -> new StairBlock(() -> ModBlocks.LEMON_BLOCK.get().defaultBlockState(), BlockBehaviour.Properties.of(Material.CACTUS).strength(2f)),
+            () -> new StairBlock(() -> ModBlocks.LEMON_BLOCK.get().defaultBlockState(), BlockBehaviour.Properties.of(Material.CACTUS).strength(0.6f)),
             ModCreativeModeTab.FAC_TAB);
     public static final RegistryObject<Block> LEMON_SLAB = registerBlock("lemon_slab",
-            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.CACTUS).strength(2f)), ModCreativeModeTab.FAC_TAB);
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.CACTUS).strength(0.4f)), ModCreativeModeTab.FAC_TAB);
     public static final RegistryObject<Block> GHOST_SLAB = registerBlock("ghost_slab",
-            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2f)), ModCreativeModeTab.FAC_TAB);
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(0.4f)), ModCreativeModeTab.FAC_TAB);
     public static final RegistryObject<Block> SAKURA_SLAB = registerBlock("sakura_slab",
-            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.CACTUS).strength(2f)), ModCreativeModeTab.FAC_TAB);
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.CACTUS).strength(0.4f)), ModCreativeModeTab.FAC_TAB);
     public static final RegistryObject<Block> GHOST_STAIRS = registerBlock("ghost_stairs",
-            () -> new StairBlock(() -> ModBlocks.GHOST_PLANKS.get().defaultBlockState(), BlockBehaviour.Properties.of(Material.WOOD).strength(2f)),
+            () -> new StairBlock(() -> ModBlocks.GHOST_PLANKS.get().defaultBlockState(), BlockBehaviour.Properties.of(Material.WOOD).strength(0.4f)),
             ModCreativeModeTab.FAC_TAB);
     public static final RegistryObject<Block> SAKURA_STAIRS = registerBlock("sakura_stairs",
-            () -> new StairBlock(() -> ModBlocks.SAKURA_PLANKS.get().defaultBlockState(), BlockBehaviour.Properties.of(Material.WOOD).strength(2f)),
+            () -> new StairBlock(() -> ModBlocks.SAKURA_PLANKS.get().defaultBlockState(), BlockBehaviour.Properties.of(Material.WOOD).strength(0.6f)),
             ModCreativeModeTab.FAC_TAB);
 
 

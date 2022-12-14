@@ -6,6 +6,7 @@ import net.minecraft.sounds.SoundEvents;
 import net.minecraft.util.LazyLoadedValue;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.ArmorMaterial;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.Ingredient;
 
 import java.util.function.Supplier;
@@ -20,6 +21,9 @@ public enum ModArmorMaterials implements ArmorMaterial {
     }),
     SQUIRREL("squirrel", 10, new int[]{2, 3, 4, 2}, 9, SoundEvents.ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, () -> {
         return Ingredient.of(ModItems.NUT.get());
+    }),
+    FOREST("forest", 18, new int[]{3, 4, 6, 3}, 15, SoundEvents.ARMOR_EQUIP_LEATHER, 0.0F, 0.0F, () -> {
+        return Ingredient.of(ModItems.FOREST_ESSENCE.get());
     })
 
   ;

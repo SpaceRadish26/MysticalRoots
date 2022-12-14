@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "###",
+    "   "
+  ],
+  "key": {
+    "#": {
+      "item": "fac:ghost_planks"
+    }
+  },
+  "result": {
+    "item": "fac:ghost_slab",
+    "count": 3
+  }
+}

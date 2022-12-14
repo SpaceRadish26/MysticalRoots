@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " N ",
+    " K ",
+    " N "
+  ],
+  "key": {
+    "K": {
+      "item": "minecraft:oak_log"
+    },
+    "N": {
+      "item": "minecraft:stone"
+    }
+  },
+  "result": {
+    "item": "fac:bo_staff"
+  }
+}
