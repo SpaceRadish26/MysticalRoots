@@ -3,11 +3,8 @@ package com.brecht.fac.item;
 import com.brecht.fac.FantasyAndNature;
 import com.brecht.fac.block.ModBlocks;
 import com.brecht.fac.block.custom.FireWoodItem;
-import com.brecht.fac.item.custom.ChopperItem;
+import com.brecht.fac.item.custom.*;
 //import com.brecht.fac.item.custom.ManMemeCoinItem;
-import com.brecht.fac.item.custom.HammerItem;
-import com.brecht.fac.item.custom.ModArmorItem;
-import com.brecht.fac.item.custom.SaberItem;
 import com.brecht.fac.sound.ModSounds;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.*;
@@ -71,6 +68,9 @@ public class ModItems {
             () -> new ItemNameBlockItem(ModBlocks.GRAPES_PLANT.get(), new Item.Properties().tab(ModCreativeModeTab.FAC_TAB)));
 
 
+    //PROJECTILES
+    public static final RegistryObject<Item> EXPLOSIVE_ARROW = ITEMS.register("explosive_arrow",
+            () -> new ExplosiveArrowItem(new Item.Properties().tab(ModCreativeModeTab.FAC_TAB)));
 
 
 

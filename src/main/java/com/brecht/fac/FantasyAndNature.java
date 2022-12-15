@@ -1,14 +1,16 @@
 package com.brecht.fac;
 
 import com.brecht.fac.block.ModBlocks;
+import com.brecht.fac.client.render.ExplosiveArrowRenderer;
 import com.brecht.fac.item.ModItems;
 import com.brecht.fac.painting.ModPaintings;
 import com.brecht.fac.sound.ModSounds;
 import com.brecht.fac.util.ModItemProperties;
 import com.mojang.logging.LogUtils;
+import com.brecht.fac.entity.ModEntityTypes;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
-import net.minecraft.world.item.Item;
+import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.FlowerPotBlock;
 import net.minecraftforge.common.MinecraftForge;
@@ -33,6 +35,7 @@ public class FantasyAndNature {
         ModBlocks.register(eventBus);
         ModSounds.register(eventBus);
         ModPaintings.register(eventBus);
+        ModEntityTypes.register(eventBus);
         eventBus.addListener(this::setup);
         eventBus.addListener(this::clientSetupEvent);
 
@@ -46,7 +49,7 @@ public class FantasyAndNature {
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.POTTED_PINK_ROSE.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.ORANGE_TULIP.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.POTTED_ORANGE_TULIP.get(), RenderType.cutout());
-
+        EntityRenderers.register(ModEntityTypes.EXPLOSIVE_ARROW.get(), ExplosiveArrowRenderer::new);
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.CHRISTMAS_WINDOW.get(), RenderType.translucent());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.TOMATO_PLANT.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.GRAPES_PLANT.get(), RenderType.cutout());

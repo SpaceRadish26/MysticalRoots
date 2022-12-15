@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "fac:pink_rose"
+    }
+  ],
+  "result": {
+    "item": "minecraft:pink_dye",
+    "count": 3
+  }
+}

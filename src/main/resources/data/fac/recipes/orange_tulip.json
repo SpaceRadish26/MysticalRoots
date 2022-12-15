@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "fac:orange_tulip"
+    }
+  ],
+  "result": {
+    "item": "minecraft:orange_dye",
+    "count": 3
+  }
+}
