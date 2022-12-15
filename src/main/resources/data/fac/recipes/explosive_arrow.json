@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "NNN",
+    " K ",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:flint"
+    },
+    "K": {
+      "item": "minecraft:stick"
+    },
+    "N": {
+      "item": "minecraft:gunpowder"
+    }
+  },
+  "result": {
+    "item": "fac:explosive_arrow",
+    "count": 4
+  }
+}

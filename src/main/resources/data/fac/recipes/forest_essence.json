@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#K#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:oak_log"
+    },
+    "K": {
+      "item": "minecraft:lava_bucket"
+    }
+  },
+  "result": {
+    "item": "fac:forest_essence",
+    "count": 2
+  }
+}
