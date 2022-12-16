@@ -8,18 +8,18 @@ New Spell tomes underway.
 An Anti-Dimension is the next WIP thing.
 
 Currently contains:
-> 5+ weapons, inlcuding but not limited to a saber, a cleaver, a fiery sword and more
-> 2 new tools, which include a hammer that mines 3x3 if you face north or south (will be updated soon)
-> 2 armor sets, squirrel and forest
-> (Squirrel armor has a jump boost effect once you wear the full set, this makes it handy for early game exploration)
-> 2 Wood types with their fence and gate variants soon to be available
-> New crops, tomatos and grapes.
-> New ore, Ghost ore
-> New Flowers & Trees
-> New Food items, such as BANANA
-> New arrow types
-> Some more items
-> Much more to come!
+- 5+ eapons, inlcuding but not limited to a saber, a cleaver, a fiery sword and more
+- 2 new tools, which include a hammer that mines 3x3 if you face north or south (will be updated soon)
+- 2 armor sets, squirrel and forest
+- (Squirrel armor has a jump boost effect once you wear the full set, this makes it handy for early game exploration)
+- 2 Wood types with their fence and gate variants soon to be available
+- New crops, tomatos and grapes.
+- New ore, Ghost ore
+- New Flowers & Trees
+- New wood items, such as BANANA
+- New arrow types
+- Some more items
+- Much more to come!
  
 
 This mod is intended to be used alongside other content-providing mods as it is currently not big enough to be used on its own.
