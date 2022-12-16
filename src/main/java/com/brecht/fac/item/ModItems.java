@@ -57,6 +57,12 @@ public class ModItems {
     public static final RegistryObject<Item> WINE = ITEMS.register("wine",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FAC_TAB).food(ModFoods.WINE)));
 
+    //MAGIC
+    public static final RegistryObject<Item> LIGHTNING_TOME = ITEMS.register("lightning_tome",
+            () -> new LightningTomeItem(new Item.Properties().tab(ModCreativeModeTab.FAC_TAB).stacksTo(1)));
+
+
+
 
 
 

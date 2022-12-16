@@ -2,6 +2,7 @@ package com.brecht.fac;
 
 import com.brecht.fac.block.ModBlocks;
 import com.brecht.fac.client.render.ExplosiveArrowRenderer;
+import com.brecht.fac.client.render.LightningballRenderer;
 import com.brecht.fac.item.ModItems;
 import com.brecht.fac.painting.ModPaintings;
 import com.brecht.fac.sound.ModSounds;
@@ -50,6 +51,7 @@ public class FantasyAndNature {
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.ORANGE_TULIP.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.POTTED_ORANGE_TULIP.get(), RenderType.cutout());
         EntityRenderers.register(ModEntityTypes.EXPLOSIVE_ARROW.get(), ExplosiveArrowRenderer::new);
+        EntityRenderers.register(ModEntityTypes.LIGHTNING_BALL.get(), LightningballRenderer::new);
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.CHRISTMAS_WINDOW.get(), RenderType.translucent());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.TOMATO_PLANT.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.GRAPES_PLANT.get(), RenderType.cutout());
