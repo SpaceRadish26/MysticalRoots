@@ -107,6 +107,11 @@ public class ModItems {
     public static final RegistryObject<Item> BO_STAFF = ITEMS.register("bo_staff",
             () -> new SwordItem(Tiers.WOOD, 4, -2.8f, new Item.Properties().tab(ModCreativeModeTab.FAC_TAB).durability(700)));
 
+    public static final RegistryObject<Item> MAGMA_SWORD = ITEMS.register("magma_sword",
+            () -> new MagmaSwordItem(Tiers.NETHERITE, 5, -2.8f, new Item.Properties().tab(ModCreativeModeTab.FAC_TAB).durability(2500)));
+
+
+
     //ARMOR
     public static final RegistryObject<Item> SQUIRREL_HELMET = ITEMS.register("squirrel_helmet", () -> new ModArmorItem(ModArmorMaterials.SQUIRREL, EquipmentSlot.HEAD, new Item.Properties().tab(ModCreativeModeTab.FAC_TAB)));
     public static final RegistryObject<Item> SQUIRREL_CHESTPLATE = ITEMS.register("squirrel_chestplate", () -> new ArmorItem(ModArmorMaterials.SQUIRREL, EquipmentSlot.CHEST, new Item.Properties().tab(ModCreativeModeTab.FAC_TAB)));

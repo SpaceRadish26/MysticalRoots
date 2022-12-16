@@ -3,6 +3,7 @@ package com.brecht.fac;
 import com.brecht.fac.block.ModBlocks;
 import com.brecht.fac.client.render.ExplosiveArrowRenderer;
 import com.brecht.fac.client.render.LightningballRenderer;
+import com.brecht.fac.effect.ModEffects;
 import com.brecht.fac.item.ModItems;
 import com.brecht.fac.painting.ModPaintings;
 import com.brecht.fac.sound.ModSounds;
@@ -38,7 +39,7 @@ public class FantasyAndNature {
         ModSounds.register(eventBus);
         ModPaintings.register(eventBus);
         ModEntityTypes.register(eventBus);
-
+        ModEffects.register(eventBus);
         ModDimensions.register();
         eventBus.addListener(this::setup);
         eventBus.addListener(this::clientSetupEvent);

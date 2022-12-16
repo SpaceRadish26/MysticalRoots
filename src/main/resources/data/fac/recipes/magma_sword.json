@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " K ",
+    "#K#",
+    " N "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:magma_block"
+    },
+    "N": {
+      "item": "minecraft:stick"
+    },
+    "K": {
+      "item": "minecraft:ancient_debris"
+    }
+  },
+  "result": {
+    "item": "fac:magma_sword"
+  }
+}
