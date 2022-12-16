@@ -1,22 +1,44 @@
-
 Welcome to Fantasy & Nature, my first Java 1.18.2 minecraft mod
--------------------------------------------
-The contents of the mod will range from tomatos to ghosts to penguins and more.
-I'm planning to add a wide variety of weapons too so there'll be many a way to defeat the new enemies.
-Building is an essential part of Minecraft so there will be new blocks to experiment with.
+---------------------------------------------------------------------------------------------
+This mod is still a massive WIP, and it is far from what I want it to be.
+----------------------------------------------------------------------------------------------------------------------------
 
-The world gen features such as the ghost trees will be available in current biomes, so there'll be no need to start a new world after updates.
+New Spell tomes underway.
 
-Since this is my first mod please excuse some textures, I'm still proud of the new Ghostly Pickaxe and the Ghost planks however.
+An Anti-Dimension is the next WIP thing.
+
+Currently contains:
+- 5+ eapons, inlcuding but not limited to a saber, a cleaver, a fiery sword and more
+- 2 new tools, which include a hammer that mines 3x3 if you face north or south (will be updated soon)
+- 2 armor sets, squirrel and forest
+- (Squirrel armor has a jump boost effect once you wear the full set, this makes it handy for early game exploration)
+- 2 Wood types with their fence and gate variants soon to be available
+- New crops, tomatos and grapes.
+- New ore, Ghost ore
+- New Flowers & Trees
+- New wood items, such as BANANA
+- New arrow types
+- Some more items
+- Much more to come!
+ 
+
+This mod is intended to be used alongside other content-providing mods as it is currently not big enough to be used on its own.
+
+-----------------------------------FEEDBACK----------------------------------------------------------------------------------------
+ 
+
+Feedback is always appreciated, you can do so either here or on the github issue tracker:
+https://github.com/S1lentwr4ith/FaN
+ 
+
+Weapon damage is subject to change, as is the food & saturation value, as always feedback concerning those values is appreciated.
+ 
+Once this mod gets a bit of downloads, I'll make a discord so it'll be easier to see and implement suggestions from you guys. Or keep track of those pesky bugs.
+ 
+This mod should not conflict with any other mod out there.
+Please do enjoy this mod, I will continue to work hard and make it great.
+ 
 
 ------------------->PREVIEWS & SCREENSHOTS<------------------------
-Available on curseforge ;)
 
--------------------->Setup<-----------------------
-
-Step 1: Minecraft forge 1.18.2 needs to be installed.
-
-Step 2: Download the jar from curseforge (soon available).
-
-Step 3: Drag the jar into your mods folder.
-
+See the screenshots tab ;)
