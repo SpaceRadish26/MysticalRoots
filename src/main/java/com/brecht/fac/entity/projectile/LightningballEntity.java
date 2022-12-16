@@ -16,8 +16,19 @@ import net.minecraftforge.network.NetworkHooks;
 
 import javax.annotation.Nonnull;
 
-public class LightningballEntity extends Arrow {
-    public LightningballEntity(EntityType<? extends Arrow> pEntityType, Level pLevel) {
+public class LightningballEntity extends Fireball {
+    public LightningballEntity(EntityType<? extends Fireball> pEntityType, Level pLevel) {
+        super(pEntityType, pLevel);
+    }
+
+    public LightningballEntity(EntityType<? extends Fireball> pEntityType, double pX, double pY, double pZ, double pOffsetX, double pOffsetY, double pOffsetZ, Level pLevel) {
+        super(pEntityType, pX, pY, pZ, pOffsetX, pOffsetY, pOffsetZ, pLevel);
+    }
+
+    public LightningballEntity(EntityType<? extends Fireball> pEntityType, LivingEntity pShooter, double pOffsetX, double pOffsetY, double pOffsetZ, Level pLevel) {
+        super(pEntityType, pShooter, pOffsetX, pOffsetY, pOffsetZ, pLevel);
+    }
+    /*public LightningballEntity(EntityType<? extends Arrow> pEntityType, Level pLevel) {
         super(pEntityType, pLevel);
     }
 
@@ -27,7 +38,7 @@ public class LightningballEntity extends Arrow {
 
     public LightningballEntity(Level pLevel, LivingEntity pShooter) {
         super(pLevel, pShooter);
-    }
+    }*/
 
     @Override
     protected void onHit(HitResult pResult) {
