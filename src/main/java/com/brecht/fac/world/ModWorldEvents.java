@@ -14,7 +14,7 @@ public class ModWorldEvents {
     public static void biomeLoadingEvent(final BiomeLoadingEvent event) {
         ModOreGeneration.generateOres(event);
 
-        ModFlowerGeneration.generateFlowers(event);
         ModTreeGeneration.generateTrees(event);
+        ModFlowerGeneration.generateFlowers(event);
     }
 }

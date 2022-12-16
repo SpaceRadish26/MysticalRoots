@@ -22,8 +22,10 @@ public class ModPlacedFeatures {
             ModConfiguredFeatures.ORANGE_TULIP, RarityFilter.onAverageOnceEvery(25),
             InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome());
 
+    //ORES
+
     public static final Holder<PlacedFeature> GHOST_ORE_PLACED = PlacementUtils.register("ghost_ore_placed",
-            ModConfiguredFeatures.GHOST_ORE, ModOrePlacement.rareOrePlacement(5,
+            ModConfiguredFeatures.GHOST_ORE, ModOrePlacement.commonOrePlacement(7,
                     HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-80), VerticalAnchor.aboveBottom(80))));
 
 

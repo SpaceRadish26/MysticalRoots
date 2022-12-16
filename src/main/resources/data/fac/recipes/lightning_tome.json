@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " K ",
+    "#N#",
+    " K "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:diamond"
+    },
+    "N": {
+      "item": "minecraft:book"
+    },
+    "K": {
+      "item": "minecraft:gunpowder"
+    }
+  },
+  "result": {
+    "item": "fac:hammer"
+  }
+}

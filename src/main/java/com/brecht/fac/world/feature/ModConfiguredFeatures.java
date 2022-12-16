@@ -35,7 +35,7 @@ public class ModConfiguredFeatures {
     public static final Holder<ConfiguredFeature<RandomFeatureConfiguration, ?>> GHOST_SPAWN =
             FeatureUtils.register("ghost_spawn", Feature.RANDOM_SELECTOR,
                     new RandomFeatureConfiguration(List.of(new WeightedPlacedFeature(GHOST_CHECKED,
-                            0.5F)), GHOST_CHECKED));
+                            0.05F)), GHOST_CHECKED));
 
     //SAKURA
     public static final Holder<ConfiguredFeature<TreeConfiguration, ?>> SAKURA_TREE =
@@ -52,7 +52,7 @@ public class ModConfiguredFeatures {
     public static final Holder<ConfiguredFeature<RandomFeatureConfiguration, ?>> SAKURA_SPAWN =
             FeatureUtils.register("sakura_spawn", Feature.RANDOM_SELECTOR,
                     new RandomFeatureConfiguration(List.of(new WeightedPlacedFeature(SAKURA_CHECKED,
-                            0.5F)), SAKURA_CHECKED));
+                            0.2F)), SAKURA_CHECKED));
 
 
 
@@ -67,12 +67,14 @@ public class ModConfiguredFeatures {
                     new RandomPatchConfiguration(16,6,2,PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
                             new SimpleBlockConfiguration(BlockStateProvider.simple(ModBlocks.ORANGE_TULIP.get())))));
 
-    public static final List<OreConfiguration.TargetBlockState> OVERWORLD_GHOST_ORE = List.of(
+    //ORES
+
+    public static final List<OreConfiguration.TargetBlockState> OVERWORLD_GHOST_ORES = List.of(
             OreConfiguration.target(OreFeatures.STONE_ORE_REPLACEABLES, ModBlocks.GHOST_ORE.get().defaultBlockState()),
             OreConfiguration.target(OreFeatures.DEEPSLATE_ORE_REPLACEABLES, ModBlocks.DEEPSLATE_GHOST_ORE.get().defaultBlockState())
     );
     public static final Holder<ConfiguredFeature<OreConfiguration, ?>> GHOST_ORE = FeatureUtils.register("ghost_ore",
-            Feature.ORE, new OreConfiguration(OVERWORLD_GHOST_ORE, 4));
+            Feature.ORE, new OreConfiguration(OVERWORLD_GHOST_ORES, 9));
 
 
 
