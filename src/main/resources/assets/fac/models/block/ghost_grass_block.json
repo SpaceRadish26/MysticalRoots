@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "fac:block/ghost_dirt_under",
+    "top": "fac:block/ghost_grass_block_top",
+    "side": "fac:block/ghost_grass_block_side"
+  }
+}

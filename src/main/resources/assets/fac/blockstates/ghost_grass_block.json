@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "fac:block/ghost_grass_block"
+    }
+  }
+}

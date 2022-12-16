@@ -112,6 +112,11 @@ public class ModBlocks {
     public static final RegistryObject<Block> GRAPES_PLANT = BLOCKS.register("grapes_plant",
             () -> new GrapesPlantBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion()));
 
+    //DIRT STUFF
+    public static final RegistryObject<Block> GHOST_GRASS_BLOCK = registerBlock("ghost_grass_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.DIRT).strength(0.8f)), ModCreativeModeTab.FAC_TAB);
+
+
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn, tab);
