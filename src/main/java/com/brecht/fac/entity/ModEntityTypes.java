@@ -16,7 +16,7 @@ public class ModEntityTypes {
     public static final RegistryObject<EntityType<ExplosiveArrowEntity>> EXPLOSIVE_ARROW = ENTITY_TYPES.register("explosive_arrow",
             () -> EntityType.Builder.of((EntityType.EntityFactory<ExplosiveArrowEntity>) ExplosiveArrowEntity::new, MobCategory.MISC).sized(0.5F, 0.5F).build("explosive_arrow"));
     public static final RegistryObject<EntityType<LightningballEntity>> LIGHTNING_BALL = ENTITY_TYPES.register("lightning_ball",
-            () -> EntityType.Builder.of((EntityType.EntityFactory<LightningballEntity>) LightningballEntity::new, MobCategory.MISC).sized(0.5F, 0.5F).build("lightning_ball"));
+            () -> EntityType.Builder.of((EntityType.EntityFactory<LightningballEntity>) LightningballEntity::new, MobCategory.MISC).sized(0.01F, 0.01F).build("lightning_ball"));
 
 
     public static void register(IEventBus eventbus) {

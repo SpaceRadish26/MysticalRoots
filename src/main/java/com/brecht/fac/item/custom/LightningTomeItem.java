@@ -34,7 +34,7 @@ public class LightningTomeItem extends Item {
         float zA = (float) (Math.cos(playerIn.yHeadRot * ((float) Math.PI / 180F)) * Math.cos(playerIn.getXRot() * ((float) Math.PI / 180F)));
 
         LightningballEntity projectile = new LightningballEntity(worldIn, xA, yA, zA);
-        projectile.setPos(playerIn.getX(), playerIn.getY() + 1.5, playerIn.getZ());
+        projectile.setPos(playerIn.getX(), playerIn.getY() + 2.5, playerIn.getZ());
         projectile.shootFromRotation(projectile, playerIn.getXRot(), playerIn.getYHeadRot(), 0, 8F, 0);
 
         if (!playerIn.isCreative()) heldStack.hurtAndBreak(1, playerIn, (entity) -> entity.broadcastBreakEvent(EquipmentSlot.MAINHAND));

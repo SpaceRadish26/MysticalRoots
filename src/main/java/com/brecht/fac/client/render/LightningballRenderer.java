@@ -12,20 +12,12 @@ import org.jetbrains.annotations.NotNull;
 
 public class LightningballRenderer extends ArrowRenderer<LightningballEntity> {
 
-    public static final ResourceLocation TEXTURE = new ResourceLocation(FantasyAndNature.MOD_ID, "textures/entity/explosive_arrow.png");
-
+    public static final ResourceLocation TEXTURE1 = new ResourceLocation(FantasyAndNature.MOD_ID, "textures/entity/lightning_ball.png");
     public LightningballRenderer(EntityRendererProvider.Context manager) {
         super(manager);
     }
 
-    public ResourceLocation getTextureLocation(ExplosiveArrowEntity arrow) {
-        return TEXTURE;
-    }
-
-
-    public static final ResourceLocation TEXTURE1 = new ResourceLocation(FantasyAndNature.MOD_ID, "textures/entity/projectile/lightning_arrow.png");
-
-    public @NotNull ResourceLocation getTextureLocation(@NotNull LightningballEntity pEntity) {
+    public ResourceLocation getTextureLocation(LightningballEntity pEntity) {
         return TEXTURE1;
     }
 }
