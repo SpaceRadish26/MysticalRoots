@@ -3,9 +3,18 @@ Welcome to Fantasy & Nature, my first Java 1.18.2 minecraft mod
 This mod is still a massive WIP, and it is far from what I want it to be.
 ----------------------------------------------------------------------------------------------------------------------------
 
-New Spell tomes underway.
+Planned in the coming days:
+ 
 
-An Anti-Dimension is the next WIP thing.
+- Custom bigger workbench coming soon together with new 3d magma sword and recipes!
+ 
+Special items & How to use:
+
+-Magma sword, rmb to enchant/disenchant with fire aspect
+
+-Lightning tome, rmb to fire projectile which spawns lightning strikes
+
+-Most 3d swords have a special effect, to trigger it all you need to do is hit an enemy
 
 Currently contains:
 - 5+ eapons, inlcuding but not limited to a saber, a cleaver, a fiery sword and more
