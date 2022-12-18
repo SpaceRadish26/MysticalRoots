@@ -115,6 +115,8 @@ public class ModBlocks {
     //DIRT STUFF
     public static final RegistryObject<Block> GHOST_GRASS_BLOCK = registerBlock("ghost_grass_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.DIRT).strength(0.8f)), ModCreativeModeTab.FAC_TAB);
+    public static final RegistryObject<Block> GHOST_GRASS = registerBlock("ghost_grass",
+            () -> new GrassBlock(BlockBehaviour.Properties.copy(Blocks.GRASS).strength(0.1f)), ModCreativeModeTab.FAC_TAB);
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {

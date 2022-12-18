@@ -53,9 +53,10 @@ public class FantasyAndNature {
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.PINK_ROSE.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.POTTED_PINK_ROSE.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.ORANGE_TULIP.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.GHOST_GRASS.get(), RenderType.translucent());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.POTTED_ORANGE_TULIP.get(), RenderType.cutout());
         EntityRenderers.register(ModEntityTypes.EXPLOSIVE_ARROW.get(), ExplosiveArrowRenderer::new);
-        //EntityRenderers.register(ModEntityTypes.LIGHTNING_BALL.get(), LightningballRenderer::new);
+        EntityRenderers.register(ModEntityTypes.LIGHTNING_BALL.get(), LightningballRenderer::new);
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.CHRISTMAS_WINDOW.get(), RenderType.translucent());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.TOMATO_PLANT.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.GRAPES_PLANT.get(), RenderType.cutout());
@@ -63,6 +64,7 @@ public class FantasyAndNature {
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.GHOST_LEAVES.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.SAKURA_SAPLING.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.SAKURA_LEAVES.get(), RenderType.cutout());
+
         ModItemProperties.addCustomItemProperties();
     }
 
