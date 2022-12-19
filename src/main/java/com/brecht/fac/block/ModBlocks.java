@@ -1,6 +1,6 @@
 package com.brecht.fac.block;
 
-import com.brecht.fac.FantasyAndNature;
+import com.brecht.fac.MysticalRoots;
 import com.brecht.fac.block.custom.GrapesPlantBlock;
 import com.brecht.fac.block.custom.SpeedyBlock;
 import com.brecht.fac.item.ModCreativeModeTab;
@@ -25,7 +25,7 @@ import java.util.function.Supplier;
 
 public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
-            DeferredRegister.create(ForgeRegistries.BLOCKS, FantasyAndNature.MOD_ID);
+            DeferredRegister.create(ForgeRegistries.BLOCKS, MysticalRoots.MOD_ID);
 
 
 

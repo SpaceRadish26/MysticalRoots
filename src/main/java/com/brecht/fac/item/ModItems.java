@@ -1,13 +1,16 @@
 package com.brecht.fac.item;
 
-import com.brecht.fac.FantasyAndNature;
+import com.brecht.fac.MysticalRoots;
 import com.brecht.fac.block.ModBlocks;
 import com.brecht.fac.block.custom.FireWoodItem;
+import com.brecht.fac.entity.ModEntityTypes;
 import com.brecht.fac.item.custom.*;
 //import com.brecht.fac.item.custom.ManMemeCoinItem;
+
 import com.brecht.fac.sound.ModSounds;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.*;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -15,7 +18,7 @@ import net.minecraftforge.registries.RegistryObject;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
-            DeferredRegister.create(ForgeRegistries.ITEMS, FantasyAndNature.MOD_ID);
+            DeferredRegister.create(ForgeRegistries.ITEMS, MysticalRoots.MOD_ID);
 
     //ITEMS
     public static final RegistryObject<Item> LEMON = ITEMS.register("lemon",
@@ -80,11 +83,19 @@ public class ModItems {
 
 
 
+    //SPAWNEGG
+    public static final RegistryObject<Item> GHOST_SPAWN_EGG = ITEMS.register("ghost_spawn_egg",
+            () -> new ForgeSpawnEggItem(ModEntityTypes.GHOST,0x948e8d,0x3b3635,
+                    new Item.Properties().tab(ModCreativeModeTab.FAC_TAB)));
+
+
 
 
     //FUEL
     public static final RegistryObject<Item> FIREWOOD = ITEMS.register("firewood",
             () -> new FireWoodItem(new Item.Properties().tab(ModCreativeModeTab.FAC_TAB)));
+
+
 
 
 

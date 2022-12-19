@@ -4,6 +4,7 @@ import com.brecht.fac.block.ModBlocks;
 import com.brecht.fac.client.render.ExplosiveArrowRenderer;
 import com.brecht.fac.client.render.LightningballRenderer;
 import com.brecht.fac.effect.ModEffects;
+import com.brecht.fac.entity.client.GhostRenderer;
 import com.brecht.fac.item.ModItems;
 import com.brecht.fac.painting.ModPaintings;
 import com.brecht.fac.sound.ModSounds;
@@ -23,27 +24,30 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
+import software.bernie.geckolib3.GeckoLib;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod(FantasyAndNature.MOD_ID)
-public class FantasyAndNature {
+@Mod(MysticalRoots.MOD_ID)
+public class MysticalRoots {
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
     public static final String MOD_ID = "fac";
 
-    public FantasyAndNature() {
+    public MysticalRoots() {
         // Register the setup method for modloading
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
         ModItems.register(eventBus);
         ModBlocks.register(eventBus);
         ModSounds.register(eventBus);
         ModPaintings.register(eventBus);
-        ModEntityTypes.register(eventBus);
+
         ModEffects.register(eventBus);
         ModDimensions.register();
+        ModEntityTypes.register(eventBus);
         eventBus.addListener(this::setup);
         eventBus.addListener(this::clientSetupEvent);
 
+        GeckoLib.initialize();
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
@@ -66,6 +70,11 @@ public class FantasyAndNature {
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.SAKURA_LEAVES.get(), RenderType.cutout());
 
         ModItemProperties.addCustomItemProperties();
+
+
+
+
+        EntityRenderers.register(ModEntityTypes.GHOST.get(), GhostRenderer::new);
     }
 
     private void setup(final FMLCommonSetupEvent event) {

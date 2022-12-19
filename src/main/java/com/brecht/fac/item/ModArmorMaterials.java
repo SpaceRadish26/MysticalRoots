@@ -1,12 +1,11 @@
 package com.brecht.fac.item;
 
-import com.brecht.fac.FantasyAndNature;
+import com.brecht.fac.MysticalRoots;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.util.LazyLoadedValue;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.ArmorMaterial;
-import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.Ingredient;
 
 import java.util.function.Supplier;
@@ -70,7 +69,7 @@ public enum ModArmorMaterials implements ArmorMaterial {
     }
 
     public String getName() {
-        return FantasyAndNature.MOD_ID + ":" + this.name;
+        return MysticalRoots.MOD_ID + ":" + this.name;
     }
 
     public float getToughness() {
