@@ -1,4 +1,4 @@
-package com.brecht.fac.client.render;
+package com.brecht.fac.client.render.projectiles;
 
 import com.brecht.fac.MysticalRoots;
 import com.brecht.fac.entity.projectile.ExplosiveArrowEntity;

@@ -1,10 +1,10 @@
 package com.brecht.fac;
 
 import com.brecht.fac.block.ModBlocks;
-import com.brecht.fac.client.render.ExplosiveArrowRenderer;
-import com.brecht.fac.client.render.LightningballRenderer;
+import com.brecht.fac.client.render.projectiles.ExplosiveArrowRenderer;
+import com.brecht.fac.client.render.projectiles.LightningballRenderer;
 import com.brecht.fac.effect.ModEffects;
-import com.brecht.fac.entity.client.GhostRenderer;
+import com.brecht.fac.client.render.mobs.GhostRenderer;
 import com.brecht.fac.item.ModItems;
 import com.brecht.fac.painting.ModPaintings;
 import com.brecht.fac.sound.ModSounds;

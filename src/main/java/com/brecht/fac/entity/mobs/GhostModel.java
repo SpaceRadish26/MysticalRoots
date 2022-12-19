@@ -1,4 +1,4 @@
-package com.brecht.fac.entity.client;
+package com.brecht.fac.entity.mobs;
 
 import com.brecht.fac.MysticalRoots;
 import com.brecht.fac.entity.mobs.GhostEntity;

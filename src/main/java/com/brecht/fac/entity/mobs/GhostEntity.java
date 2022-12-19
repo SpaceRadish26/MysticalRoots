@@ -39,9 +39,9 @@ public class GhostEntity extends Monster implements IAnimatable {
 
     protected void registerGoals() {
         this.goalSelector.addGoal(1, new FloatGoal(this));
-        this.goalSelector.addGoal(3, new MeleeAttackGoal(this, 1.5f, true));
+        this.goalSelector.addGoal(3, new MeleeAttackGoal(this, 0.4f, true));
         this.goalSelector.addGoal(2, new LookAtPlayerGoal(this, Player.class, 8.0F));
-        this.goalSelector.addGoal(4, new WaterAvoidingRandomFlyingGoal(this, 1.0D));
+        this.goalSelector.addGoal(4, new WaterAvoidingRandomFlyingGoal(this, 0.2D));
         this.goalSelector.addGoal(5, new RandomLookAroundGoal(this));
         this.goalSelector.addGoal(6, (new HurtByTargetGoal(this)).setAlertOthers());
     }
