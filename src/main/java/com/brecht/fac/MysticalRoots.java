@@ -6,6 +6,7 @@ import com.brecht.fac.client.render.projectiles.LightningballRenderer;
 import com.brecht.fac.effect.ModEffects;
 import com.brecht.fac.client.render.mobs.GhostRenderer;
 import com.brecht.fac.item.ModItems;
+import com.brecht.fac.loot.ModLootModifiers;
 import com.brecht.fac.painting.ModPaintings;
 import com.brecht.fac.sound.ModSounds;
 import com.brecht.fac.util.ModItemProperties;
@@ -49,6 +50,9 @@ public class MysticalRoots {
         ModEntityTypes.register(eventBus);
         ModBiomeModifiers.register(eventBus);
         ModPlacedFeatures.register(eventBus);
+
+        ModLootModifiers.register(eventBus);
+
         eventBus.addListener(this::setup);
         eventBus.addListener(this::clientSetupEvent);
 
