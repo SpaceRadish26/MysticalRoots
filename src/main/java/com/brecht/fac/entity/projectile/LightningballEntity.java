@@ -16,6 +16,8 @@ import net.minecraftforge.network.NetworkHooks;
 
 import javax.annotation.Nonnull;
 
+import net.minecraft.world.entity.Entity.RemovalReason;
+
 public class LightningballEntity extends Fireball {
     public LightningballEntity(EntityType<? extends Fireball> pEntityType, Level pLevel) {
         super(pEntityType, pLevel);

@@ -13,7 +13,12 @@ public class ExplosiveArrowRenderer extends ArrowRenderer<ExplosiveArrowEntity> 
         super(manager);
     }
 
-    public ResourceLocation getTextureLocation(ExplosiveArrowEntity arrow) {
+    @Override
+    public ResourceLocation getTextureLocation(ExplosiveArrowEntity pEntity) {
+        return TEXTURE;
+    }
+
+    public ResourceLocation getTextureResource(ExplosiveArrowEntity arrow) {
         return TEXTURE;
     }
 }

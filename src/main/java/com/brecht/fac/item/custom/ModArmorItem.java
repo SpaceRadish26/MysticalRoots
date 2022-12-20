@@ -14,6 +14,8 @@ import net.minecraft.world.level.Level;
 
 import java.util.Map;
 
+import net.minecraft.world.item.Item.Properties;
+
 public class ModArmorItem extends ArmorItem {
     private static final Map<ArmorMaterial, MobEffectInstance> MATERIAL_TO_EFFECT_MAP =
             (new ImmutableMap.Builder<ArmorMaterial, MobEffectInstance>())

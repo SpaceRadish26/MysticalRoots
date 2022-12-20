@@ -1,0 +1,5 @@
+{
+  "type": "fac:vegetal",
+  "biomes": "#forge:is_plains",
+  "feature": "fac:sakura_placed"
+}

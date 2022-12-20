@@ -13,10 +13,12 @@ import net.minecraft.world.entity.projectile.Fireball;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
-import net.minecraftforge.event.world.NoteBlockEvent;
+
 import org.jetbrains.annotations.NotNull;
 
 import java.util.Random;
+
+import net.minecraft.world.item.Item.Properties;
 
 public class LightningTomeItem extends Item {
 

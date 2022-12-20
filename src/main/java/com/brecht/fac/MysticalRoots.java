@@ -9,7 +9,9 @@ import com.brecht.fac.item.ModItems;
 import com.brecht.fac.painting.ModPaintings;
 import com.brecht.fac.sound.ModSounds;
 import com.brecht.fac.util.ModItemProperties;
+import com.brecht.fac.world.biomemods.ModBiomeModifiers;
 import com.brecht.fac.world.dimension.ModDimensions;
+import com.brecht.fac.world.feature.ModPlacedFeatures;
 import com.mojang.logging.LogUtils;
 import com.brecht.fac.entity.ModEntityTypes;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
@@ -18,6 +20,7 @@ import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.FlowerPotBlock;
 import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.common.world.BiomeModifier;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
@@ -44,6 +47,8 @@ public class MysticalRoots {
         ModEffects.register(eventBus);
         ModDimensions.register();
         ModEntityTypes.register(eventBus);
+        ModBiomeModifiers.register(eventBus);
+        ModPlacedFeatures.register(eventBus);
         eventBus.addListener(this::setup);
         eventBus.addListener(this::clientSetupEvent);
 

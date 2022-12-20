@@ -7,17 +7,17 @@ import software.bernie.geckolib3.model.AnimatedGeoModel;
 
 public class GhostModel extends AnimatedGeoModel<GhostEntity> {
     @Override
-    public ResourceLocation getModelLocation(GhostEntity object) {
+    public ResourceLocation getModelResource(GhostEntity object) {
         return new ResourceLocation(MysticalRoots.MOD_ID,"geo/ghost.geo.json");
     }
 
     @Override
-    public ResourceLocation getTextureLocation(GhostEntity object) {
+    public ResourceLocation getTextureResource(GhostEntity object) {
         return new ResourceLocation(MysticalRoots.MOD_ID,"textures/entity/ghost/ghost.png");
     }
 
     @Override
-    public ResourceLocation getAnimationFileLocation(GhostEntity animatable) {
+    public ResourceLocation getAnimationResource(GhostEntity animatable) {
         return new ResourceLocation(MysticalRoots.MOD_ID,"animations/ghost.animation.json");
     }
 }

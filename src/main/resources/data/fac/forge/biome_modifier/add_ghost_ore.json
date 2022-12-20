@@ -1,0 +1,5 @@
+{
+  "type": "fac:ores",
+  "biomes": "#minecraft:is_overworld",
+  "feature": "fac:ghost_ore_placed"
+}

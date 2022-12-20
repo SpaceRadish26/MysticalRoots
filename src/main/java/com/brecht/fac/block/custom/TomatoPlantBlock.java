@@ -6,6 +6,8 @@ import net.minecraft.world.level.block.CropBlock;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.block.state.properties.IntegerProperty;
 
+import net.minecraft.world.level.block.state.BlockBehaviour.Properties;
+
 public class TomatoPlantBlock extends CropBlock {
     public static final IntegerProperty AGE = BlockStateProperties.AGE_2;
     public TomatoPlantBlock(Properties pProperties) {

@@ -5,6 +5,8 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.crafting.RecipeType;
 import org.jetbrains.annotations.Nullable;
 
+import net.minecraft.world.item.Item.Properties;
+
 public class FireWoodItem extends Item {
 
     public FireWoodItem(Properties pProperties) {

@@ -53,9 +53,9 @@ public class ModBlocks {
 
     //ORES
     public static final RegistryObject<Block> GHOST_ORE = registerBlock("ghost_ore",
-            () -> new OreBlock(BlockBehaviour.Properties.copy(Blocks.GOLD_ORE).strength(1f)), ModCreativeModeTab.FAC_TAB);
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.GOLD_ORE).strength(1f)), ModCreativeModeTab.FAC_TAB);
     public static final RegistryObject<Block> DEEPSLATE_GHOST_ORE = registerBlock("deepslate_ghost_ore",
-            () -> new OreBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_GOLD_ORE).strength(1.5f)), ModCreativeModeTab.FAC_TAB);
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_GOLD_ORE).strength(1.5f)), ModCreativeModeTab.FAC_TAB);
 
 
 

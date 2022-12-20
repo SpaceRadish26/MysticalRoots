@@ -10,6 +10,8 @@ import net.minecraft.world.item.context.UseOnContext;
 import java.util.Random;
 import java.util.concurrent.ThreadLocalRandom;
 
+import net.minecraft.world.item.Item.Properties;
+
 public class ManMemeCoinItem extends Item {
     public ManMemeCoinItem(Properties pProperties) {
         super(pProperties);
