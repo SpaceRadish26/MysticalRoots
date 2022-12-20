@@ -64,6 +64,8 @@ public class ModItems {
     public static final RegistryObject<Item> LIGHTNING_TOME = ITEMS.register("lightning_tome",
             () -> new LightningTomeItem(new Item.Properties().tab(ModCreativeModeTab.FAC_TAB).stacksTo(1).durability(250)));
 
+    public static final RegistryObject<Item> ECTOPLASM = ITEMS.register("ectoplasm",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FAC_TAB)));
 
 
 

@@ -37,6 +37,7 @@
   "item.fac.lightning_tome": "Lightning Tome",
   "item.fac.magma_sword": "Magma Sword",
   "item.fac.ghost_spawn_egg": "Ghost Spawn Egg",
+  "item.fac.ectoplasm": "Ectoplasm",
 
   "block.fac.ghost_grass_block": "Ghost Grass Block",
   "block.fac.sakura_sapling": "Sakura Sapling",
@@ -64,5 +65,5 @@
   "block.fac.speedy_block": "Block of Speed",
   "block.fac.ghost_grass": "Ghost Grass",
 
-  "itemGroup.fac": "Mystical Roots"
+  "itemGroup.myr": "Mystical Roots"
 }
