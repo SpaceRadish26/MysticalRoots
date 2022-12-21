@@ -7,7 +7,7 @@
     "description": "One day there'll be ghosts by this tree I tell ya",
     "frame": "task",
     "show_toast": true,
-    "announce_to_chat": true,
+    "announce_to_chat": true
   },
   "parent": "fac:fac",
   "criteria": {

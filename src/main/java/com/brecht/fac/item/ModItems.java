@@ -39,11 +39,16 @@ public class ModItems {
 
     //TOOLS
 
-    public static final RegistryObject<Item> GHOST_PICKAXE = ITEMS.register("ghost_pickaxe", () -> new PickaxeItem(ModTiers.GHOST, -4, 0f,
+    public static final RegistryObject<Item> GHOST_PICKAXE = ITEMS.register("ghost_pickaxe", () -> new PickaxeItem(ModTiers.GHOST, -2, 0f,
             new Item.Properties().tab(ModCreativeModeTab.FAC_TAB)));
     public static final RegistryObject<Item> HAMMER = ITEMS.register("hammer", () -> new HammerItem(Tiers.DIAMOND, 0, -2.8f,
             new Item.Properties().tab(ModCreativeModeTab.FAC_TAB)));
 
+    public static final RegistryObject<Item> GHOST_SHOVEL = ITEMS.register("ghost_shovel", () -> new ShovelItem(ModTiers.GHOST, -2, 0f,
+            new Item.Properties().tab(ModCreativeModeTab.FAC_TAB)));
+
+    public static final RegistryObject<Item> GHOST_AXE = ITEMS.register("ghost_axe", () -> new ShovelItem(ModTiers.GHOST, -2, 0f,
+            new Item.Properties().tab(ModCreativeModeTab.FAC_TAB)));
 
 
 

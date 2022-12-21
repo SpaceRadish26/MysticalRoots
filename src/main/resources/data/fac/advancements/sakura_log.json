@@ -7,7 +7,7 @@
     "description": "These trees bring fortune to those of pure heart.",
     "frame": "task",
     "show_toast": true,
-    "announce_to_chat": true,
+    "announce_to_chat": true
   },
   "parent": "fac:fac",
   "criteria": {
