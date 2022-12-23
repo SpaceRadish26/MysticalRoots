@@ -1,12 +1,9 @@
 package com.brecht.fac.block;
 
 import com.brecht.fac.MysticalRoots;
-import com.brecht.fac.block.custom.GrapesPlantBlock;
-import com.brecht.fac.block.custom.SpeedyBlock;
+import com.brecht.fac.block.custom.*;
 import com.brecht.fac.item.ModCreativeModeTab;
 import com.brecht.fac.item.ModItems;
-import com.brecht.fac.block.custom.ModFlammableRotatedPillarBlock;
-import com.brecht.fac.block.custom.TomatoPlantBlock;
 import com.brecht.fac.world.feature.tree.GhostTreeGrower;
 import com.brecht.fac.world.feature.tree.SakuraTreeGrower;
 import net.minecraft.world.effect.MobEffects;
@@ -60,6 +57,8 @@ public class ModBlocks {
 
 
     //BUILDING BLOCKS
+    public static final RegistryObject<Block> GHOST_LAMP = registerBlock("ghost_lamp", () -> new GhostLampBlock(BlockBehaviour
+            .Properties.of(Material.GLASS).strength(1f).lightLevel(value -> 15)), ModCreativeModeTab.FAC_TAB);
     public static final RegistryObject<Block> LEMON_BLOCK = registerBlock("lemon_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.CACTUS).strength(0.8f)), ModCreativeModeTab.FAC_TAB);
     public static final RegistryObject<Block> SPEEDY_BLOCK = registerBlock("speedy_block",

@@ -40,12 +40,13 @@
   "item.fac.ectoplasm": "Ectoplasm",
   "item.fac.ghost_shovel": "Ghost Shovel",
   "item.fac.ghost_axe": "Ghost Axe",
+  "item.fac.crucifix": "Crucifix",
 
 
 
 
 
-
+  "block.fac.ghost_lamp": "Ghost Lamp",
   "block.fac.ghost_grass_block": "Ghost Grass Block",
   "block.fac.sakura_sapling": "Sakura Sapling",
   "block.fac.ghost_stairs": "Ghost Stairs",
