@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "fac:bo_staff"
+    },
+    "title": "HOOOOO- YAAAAH",
+    "description": "A fine staff, a similar one was used by Wu Kong.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "fac:fac",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "fac:bo_staff"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

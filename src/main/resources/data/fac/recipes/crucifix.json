@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " N ",
+    "NNN",
+    " N "
+  ],
+  "key": {
+    "N": {
+      "item": "minecraft:oak_log"
+    }
+  },
+  "result": {
+    "item": "fac:crucifix"
+  }
+}

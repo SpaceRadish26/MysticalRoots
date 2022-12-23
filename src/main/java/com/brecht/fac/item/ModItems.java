@@ -36,6 +36,9 @@ public class ModItems {
             () -> new RecordItem(4, ModSounds.GUNS_FOR_HIRE, new Item.Properties().tab(ModCreativeModeTab.FAC_TAB).stacksTo(1), 5300));
     public static final RegistryObject<Item> FOREST_ESSENCE = ITEMS.register("forest_essence",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FAC_TAB)));
+    public static final RegistryObject<Item> CRUCIFIX = ITEMS.register("crucifix",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FAC_TAB).stacksTo(16)));
+
 
     //TOOLS
 

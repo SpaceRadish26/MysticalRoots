@@ -1,21 +1,24 @@
 package com.brecht.fac.item.custom;
 
+import net.minecraft.ChatFormatting;
+import net.minecraft.client.gui.screens.Screen;
+import net.minecraft.network.chat.Component;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.InteractionResultHolder;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.SwordItem;
-import net.minecraft.world.item.Tier;
+import net.minecraft.world.item.*;
 import net.minecraft.world.item.context.UseOnContext;
 import net.minecraft.world.item.enchantment.Enchantments;
 import net.minecraft.world.level.Level;
 import org.jetbrains.annotations.NotNull;
 
 import net.minecraft.world.item.Item.Properties;
+import org.jetbrains.annotations.Nullable;
+
+import java.util.List;
 
 public class MagmaSwordItem extends SwordItem {
     public MagmaSwordItem(Tier pTier, int pAttackDamageModifier, float pAttackSpeedModifier, Properties pProperties) {
@@ -35,26 +38,15 @@ public class MagmaSwordItem extends SwordItem {
         }
         return new InteractionResultHolder<>(InteractionResult.SUCCESS, sword);
     }
-    /*@Override
-    public InteractionResult useOn(UseOnContext pContext) {
-        ItemStack handsword = pContext.getItemInHand();
-        if (!pContext.getLevel().isClientSide()) {
-            if (!handsword.isEnchanted()) {
-                handsword.enchant(Enchantments.FIRE_ASPECT, 2);
-            }
-            else {
-                handsword.getEnchantmentTags().clear();
-            }
-        }
-        return super.useOn(pContext);
-    }*/
 
-   /* @Override
-    public void onCraftedBy(ItemStack pStack, Level pLevel, Player pPlayer) {
-        if (!pLevel.isClientSide()) {
-            pStack.enchant(Enchantments.FIRE_ASPECT, 1);
-
+    @Override
+    public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
+        if(Screen.hasShiftDown()) {
+            pTooltipComponents.add(Component.literal("Press RMB to enchant/disenchant your sword.").withStyle(ChatFormatting.DARK_RED, ChatFormatting.BOLD));
+        } else {
+            pTooltipComponents.add(Component.literal("Press SHIFT to view info").withStyle(ChatFormatting.BOLD, ChatFormatting.DARK_RED));
         }
-        super.onCraftedBy(pStack, pLevel, pPlayer);
-    }*/
+
+        super.appendHoverText(pStack, pLevel, pTooltipComponents, pIsAdvanced);
+    }
 }

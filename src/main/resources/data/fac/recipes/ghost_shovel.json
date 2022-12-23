@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    " N ",
+    " N "
+  ],
+  "key": {
+    "#": {
+      "item": "fac:ghost_ingot"
+    },
+    "N": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "fac:ghost_shovel"
+  }
+}
