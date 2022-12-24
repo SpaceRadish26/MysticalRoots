@@ -8,10 +8,7 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.dimension.DimensionType;
 
 public class ModDimensions {
-    public static final ResourceKey<Level> SIDIM_KEY = ResourceKey.create(Registry.DIMENSION_REGISTRY,
-            new ResourceLocation(MysticalRoots.MOD_ID, "sidim"));
-    public static final ResourceKey<DimensionType> SIDIM_TYPE =
-            ResourceKey.create(Registry.DIMENSION_TYPE_REGISTRY, new ResourceLocation(MysticalRoots.MOD_ID, "sidim"));
+
 
     public static void register() {
         System.out.println("Registering ModDimensions for " + MysticalRoots.MOD_ID);

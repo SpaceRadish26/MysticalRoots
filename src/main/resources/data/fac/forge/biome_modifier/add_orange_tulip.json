@@ -1,5 +1,6 @@
 {
   "type": "fac:vegetal",
   "biomes": "#forge:is_plains",
-  "feature": "fac:orange_tulip_placed"
+  "feature": "fac:orange_tulip_placed",
+  "step": "vegetal_decoration"
 }

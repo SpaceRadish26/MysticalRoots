@@ -25,7 +25,7 @@ public class ModPlacedFeatures {
     public static final RegistryObject<PlacedFeature> SAKURA_PLACED = PLACED_FEATURES.register("sakura_placed",
             () -> new PlacedFeature((Holder<ConfiguredFeature<?,?>>)(Holder<? extends ConfiguredFeature<?,?>>)
             ModConfiguredFeatures.SAKURA_SPAWN, VegetationPlacements.treePlacement(
-                    PlacementUtils.countExtra(1, 0.2f, 1))));
+                    PlacementUtils.countExtra(0, 0.2f, 1))));
 
     public static final RegistryObject<PlacedFeature> PINK_ROSE_PLACED = PLACED_FEATURES.register("pink_rose_placed",
             () -> new PlacedFeature((Holder<ConfiguredFeature<?,?>>)(Holder<? extends ConfiguredFeature<?,?>>)

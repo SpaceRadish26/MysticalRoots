@@ -1,0 +1,13 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "minecraft:desert"
+  ],
+  "spawners": {
+    "type": "fac:ghost",
+    "weight": 30,
+    "minCount": 1,
+    "maxCount": 3
+  }
+
+}
