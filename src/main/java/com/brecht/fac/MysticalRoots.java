@@ -56,6 +56,7 @@ public class MysticalRoots {
 
         ModLootModifiers.register(eventBus);
 
+        eventBus.addListener(MRDynamicAssignment::onData);
         eventBus.addListener(this::setup);
         eventBus.addListener(this::clientSetupEvent);
 

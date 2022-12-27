@@ -72,4 +72,9 @@ public class LightningballEntity extends Fireball {
     public Packet<?> getAddEntityPacket() {
         return NetworkHooks.getEntitySpawningPacket(this);
     }
+
+    @Override
+    public boolean isNoGravity() {
+        return true;
+    }
 }
