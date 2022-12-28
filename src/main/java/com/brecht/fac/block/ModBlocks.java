@@ -17,6 +17,8 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
+import software.bernie.geckolib3.core.IAnimatable;
+import software.bernie.geckolib3.model.AnimatedGeoModel;
 
 import java.util.function.Supplier;
 
@@ -54,7 +56,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> DEEPSLATE_GHOST_ORE = registerBlock("deepslate_ghost_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_GOLD_ORE).strength(1.5f).requiresCorrectToolForDrops()), ModCreativeModeTab.FAC_TAB);
 
-
+    //ALTARS
+    public static final RegistryObject<Block> DRUID_ALTAR = BLOCKS.register("druid_altar", () -> new DruidAltarBlock(BlockBehaviour.Properties.of(Material.BAMBOO)
+            .noOcclusion()));
 
     //BUILDING BLOCKS
     public static final RegistryObject<Block> GHOST_LAMP = registerBlock("ghost_lamp", () -> new GhostLampBlock(BlockBehaviour

@@ -76,6 +76,10 @@ public class ModItems {
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FAC_TAB)));
 
 
+    //ALTARS
+    public static final RegistryObject<Item> DRUID_ALTAR_ITEM = ITEMS.register("druid_altar_item",
+            () -> new DruidAltarItem(ModBlocks.DRUID_ALTAR.get(),
+                    new Item.Properties().tab(ModCreativeModeTab.FAC_TAB)));
 
 
 

@@ -1,6 +1,7 @@
 package com.brecht.fac.entity;
 
 import com.brecht.fac.MysticalRoots;
+import com.brecht.fac.entity.mobs.ArchonOTVEntity;
 import com.brecht.fac.entity.mobs.GhostEntity;
 import com.brecht.fac.entity.projectile.ExplosiveArrowEntity;
 import com.brecht.fac.entity.projectile.LightningballEntity;
@@ -26,6 +27,10 @@ public class ModEntityTypes {
                     () -> EntityType.Builder.of(GhostEntity::new, MobCategory.MONSTER)
                             .sized(1.5f,2f)
                             .build(new ResourceLocation(MysticalRoots.MOD_ID,"ghost").toString()));
+
+    public static final RegistryObject<EntityType<ArchonOTVEntity>> ARCHONOTV =
+            ENTITY_TYPES.register("archonotv", () -> EntityType.Builder.of(ArchonOTVEntity::new, MobCategory.MONSTER)
+                    .sized(1.7f,3f).build(new ResourceLocation(MysticalRoots.MOD_ID, "archonotv").toString()));
 
 
     public static void register(IEventBus eventbus) {
