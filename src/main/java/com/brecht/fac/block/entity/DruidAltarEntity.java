@@ -1,6 +1,7 @@
 package com.brecht.fac.block.entity;
 
 import com.brecht.fac.block.ModBlockEntities;
+import com.brecht.fac.block.custom.DruidAltarBlock;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.entity.BlockEntityType;
@@ -26,9 +27,9 @@ public class DruidAltarEntity extends BlockEntity implements IAnimatable {
                 (this, "controller", 0, this::predicate));
     }
 
+
     private <E extends IAnimatable> PlayState predicate(AnimationEvent<E> event) {
         event.getController().setAnimation(new AnimationBuilder().addAnimation("idle", true));
-
         return PlayState.CONTINUE;
     }
 
