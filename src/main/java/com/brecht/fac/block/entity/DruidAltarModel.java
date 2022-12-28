@@ -17,6 +17,6 @@ public class DruidAltarModel extends AnimatedGeoModel<DruidAltarEntity> {
 
     @Override
     public ResourceLocation getAnimationResource(DruidAltarEntity animatable) {
-        return new ResourceLocation(MysticalRoots.MOD_ID, "animations/animated_block.animation.json");
+        return new ResourceLocation(MysticalRoots.MOD_ID, "animations/druid_altar.animation.json");
     }
 }

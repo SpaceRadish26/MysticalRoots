@@ -12,7 +12,7 @@
 			},
 			"bones": [
 				{
-					"name": "druid_altar",
+					"name": "Altar",
 					"pivot": [0, 0, 0],
 					"cubes": [
 						{

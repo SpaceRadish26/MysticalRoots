@@ -21,7 +21,7 @@ public class DruidAltarBlock extends BaseEntityBlock {
     }
 
     @Override
-    public Object getRenderPropertiesInternal() {
+    public RenderShape getRenderShape(BlockState pState) {
         return RenderShape.ENTITYBLOCK_ANIMATED;
     }
 }

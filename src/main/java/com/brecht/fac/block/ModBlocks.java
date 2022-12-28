@@ -57,7 +57,8 @@ public class ModBlocks {
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_GOLD_ORE).strength(1.5f).requiresCorrectToolForDrops()), ModCreativeModeTab.FAC_TAB);
 
     //ALTARS
-    public static final RegistryObject<Block> DRUID_ALTAR = BLOCKS.register("druid_altar", () -> new DruidAltarBlock(BlockBehaviour.Properties.of(Material.BAMBOO)
+    public static final RegistryObject<Block> DRUID_ALTAR = BLOCKS.register("druid_altar",
+            () -> new DruidAltarBlock(BlockBehaviour.Properties.of(Material.WOOD)
             .noOcclusion()));
 
     //BUILDING BLOCKS

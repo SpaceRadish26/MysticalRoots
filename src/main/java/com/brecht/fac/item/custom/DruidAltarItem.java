@@ -43,6 +43,6 @@ public class DruidAltarItem extends BlockItem implements IAnimatable {
 
     @Override
     public AnimationFactory getFactory() {
-        return null;
+        return this.factory;
     }
 }
