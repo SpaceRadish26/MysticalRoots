@@ -9,8 +9,7 @@ import net.minecraft.world.level.dimension.DimensionType;
 
 public class ModDimensions {
 
-
     public static void register() {
-        System.out.println("Registering ModDimensions for " + MysticalRoots.MOD_ID);
+        System.out.println("Registering ModDimensions");
     }
 }

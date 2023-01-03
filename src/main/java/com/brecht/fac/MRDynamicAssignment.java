@@ -69,7 +69,9 @@ public class MRDynamicAssignment {
 
             @Override
             public void addTables() {
+
                 dropSelf(ModBlocks.CHRISTMAS_WINDOW.get());
+                dropSelf(ModBlocks.DRUID_ALTAR.get());
             }
 
             protected Iterable<Block> getKnownBlocks() {
