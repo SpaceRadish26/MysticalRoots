@@ -2,7 +2,6 @@ package com.brecht.fac;
 
 import com.brecht.fac.block.ModBlockEntities;
 import com.brecht.fac.block.ModBlocks;
-import com.brecht.fac.client.render.mobs.ArchonOTVRenderer;
 import com.brecht.fac.client.render.projectiles.ExplosiveArrowRenderer;
 import com.brecht.fac.client.render.projectiles.LightningballRenderer;
 import com.brecht.fac.effect.ModEffects;
@@ -99,7 +98,6 @@ public class MysticalRoots {
 
 
         EntityRenderers.register(ModEntityTypes.GHOST.get(), GhostRenderer::new);
-        EntityRenderers.register(ModEntityTypes.ARCHONOTV.get(), ArchonOTVRenderer::new);
     }
 
     @SubscribeEvent

@@ -60,8 +60,8 @@ public class ModBlocks {
             .noOcclusion()));
 
     //BUILDING BLOCKS
-    public static final RegistryObject<Block> GHOST_LAMP = registerBlock("ghost_lamp", () -> new GhostLampBlock(BlockBehaviour
-            .Properties.of(Material.GLASS).strength(1f).lightLevel(value -> 15)), ModCreativeModeTab.MR_TAB);
+    //public static final RegistryObject<Block> GHOST_LAMP = registerBlock("ghost_lamp", () -> new GhostLampBlock(BlockBehaviour
+            //.Properties.of(Material.GLASS).strength(1f).lightLevel(value -> 15)), ModCreativeModeTab.MR_TAB);
     public static final RegistryObject<Block> LEMON_BLOCK = registerBlock("lemon_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.CACTUS).strength(0.8f)), ModCreativeModeTab.MR_TAB);
     public static final RegistryObject<Block> SPEEDY_BLOCK = registerBlock("speedy_block",

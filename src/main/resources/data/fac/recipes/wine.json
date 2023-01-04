@@ -7,7 +7,7 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:block/glass_block"
+      "item": "minecraft:block/glass"
     },
     "K": {
       "item": "fac:grapes"

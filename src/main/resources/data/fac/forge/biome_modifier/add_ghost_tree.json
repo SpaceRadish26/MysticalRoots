@@ -1,6 +1,6 @@
 {
   "type": "fac:vegetal",
-  "biomes": "#forge:is_forest",
+  "biomes": "ghost_biome",
   "feature": "fac:ghost_placed",
   "step": "vegetal_decoration"
 }

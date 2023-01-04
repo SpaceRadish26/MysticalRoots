@@ -1,6 +1,6 @@
 {
   "type": "fac:vegetal",
-  "biomes": "#forge:is_plains",
+  "biomes": "sakura_forest",
   "feature": "fac:sakura_placed",
   "step": "vegetal_decoration"
 }

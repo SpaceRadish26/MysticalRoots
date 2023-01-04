@@ -2,7 +2,7 @@
   "type": "minecraft:overworld",
   "generator": {
     "type": "minecraft:noise",
-    "settings": "minecraft:overworld",
+    "settings": "fac:myrthia_type",
     "biome_source": {
       "type": "minecraft:multi_noise",
       "biomes": [
@@ -14,18 +14,6 @@
             "continentalness": 0,
             "erosion": 0,
             "weirdness": -1,
-            "depth": 0,
-            "offset": 0
-          }
-        },
-        {
-          "biome": "minecraft:plains",
-          "parameters": {
-            "temperature": 0,
-            "humidity": 0,
-            "continentalness": 1,
-            "erosion": 0,
-            "weirdness": 0,
             "depth": 0,
             "offset": 0
           }
