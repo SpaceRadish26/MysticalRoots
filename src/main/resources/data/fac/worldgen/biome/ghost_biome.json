@@ -70,12 +70,6 @@
         "weight": 1,
         "minCount": 0,
         "maxCount": 0
-      },
-      {
-        "type": "fac:ghost",
-        "weight": 5,
-        "minCount": 4,
-        "maxCount": 4
       }
     ],
     "underground_water_creature": [

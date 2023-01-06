@@ -1,8 +1,8 @@
 {
-  "type": "minecraft:overworld",
+  "type": "fac:myrthia_type",
   "generator": {
     "type": "minecraft:noise",
-    "settings": "fac:myrthia_type",
+    "settings": "minecraft:overworld",
     "biome_source": {
       "type": "minecraft:multi_noise",
       "biomes": [
@@ -18,6 +18,7 @@
             "offset": 0
           }
         },
+
         {
           "biome": "fac:sakura_forest",
           "parameters": {

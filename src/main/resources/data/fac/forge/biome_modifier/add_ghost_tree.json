@@ -1,6 +1,6 @@
 {
   "type": "fac:vegetal",
-  "biomes": "ghost_biome",
+  "biomes": "fac:ghost_biome",
   "feature": "fac:ghost_placed",
   "step": "vegetal_decoration"
 }

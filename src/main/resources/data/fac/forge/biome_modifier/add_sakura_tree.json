@@ -1,6 +1,6 @@
 {
   "type": "fac:vegetal",
-  "biomes": "sakura_forest",
+  "biomes": "fac:sakura_forest",
   "feature": "fac:sakura_placed",
   "step": "vegetal_decoration"
 }

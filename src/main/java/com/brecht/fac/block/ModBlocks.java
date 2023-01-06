@@ -54,6 +54,8 @@ public class ModBlocks {
     public static final RegistryObject<Block> DEEPSLATE_GHOST_ORE = registerBlock("deepslate_ghost_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_GOLD_ORE).strength(1.5f).requiresCorrectToolForDrops()), ModCreativeModeTab.MR_TAB);
 
+
+
     //ALTARS
     public static final RegistryObject<Block> DRUID_ALTAR = BLOCKS.register("druid_altar",
             () -> new DruidAltarBlock(BlockBehaviour.Properties.of(Material.WOOD)
@@ -98,8 +100,44 @@ public class ModBlocks {
             ModCreativeModeTab.MR_TAB);
     public static final RegistryObject<Block> POTTED_ORANGE_TULIP = BLOCKS.register("potted_orange_tulip",
             () -> new FlowerPotBlock(null, ModBlocks.ORANGE_TULIP,
-                    BlockBehaviour.Properties.copy(Blocks.DANDELION).noOcclusion())
-    );
+                    BlockBehaviour.Properties.copy(Blocks.DANDELION).noOcclusion()));
+
+    public static final RegistryObject<Block> ZINNIA_FLOWER_PINK = registerBlock("zinnia_flower_pink",
+            () -> new FlowerBlock(MobEffects.REGENERATION, 4, BlockBehaviour.Properties.copy(Blocks.DANDELION).noOcclusion()),
+            ModCreativeModeTab.MR_TAB);
+
+    public static final RegistryObject<Block> POTTED_ZINNIA_FLOWER = BLOCKS.register("potted_zinnia_flower",
+            () -> new FlowerPotBlock(null, ModBlocks.ZINNIA_FLOWER_PINK,
+                    BlockBehaviour.Properties.copy(Blocks.DANDELION).noOcclusion()));
+    public static final RegistryObject<Block> ZINNIA_FLOWER_YELLOW = registerBlock("zinnia_flower_yellow",
+            () -> new FlowerBlock(MobEffects.REGENERATION, 4, BlockBehaviour.Properties.copy(Blocks.DANDELION).noOcclusion()),
+            ModCreativeModeTab.MR_TAB);
+
+    public static final RegistryObject<Block> POTTED_ZINNIA_FLOWER_YELLOW = BLOCKS.register("potted_zinnia_flower_yellow",
+            () -> new FlowerPotBlock(null, ModBlocks.ZINNIA_FLOWER_YELLOW,
+                    BlockBehaviour.Properties.copy(Blocks.DANDELION).noOcclusion()));
+    public static final RegistryObject<Block> ZINNIA_FLOWER_GRAY = registerBlock("zinnia_flower_gray",
+            () -> new FlowerBlock(MobEffects.REGENERATION, 4, BlockBehaviour.Properties.copy(Blocks.DANDELION).noOcclusion()),
+            ModCreativeModeTab.MR_TAB);
+
+    public static final RegistryObject<Block> POTTED_ZINNIA_FLOWER_GRAY = BLOCKS.register("potted_zinnia_flower_gray",
+            () -> new FlowerPotBlock(null, ModBlocks.ZINNIA_FLOWER_GRAY,
+                    BlockBehaviour.Properties.copy(Blocks.DANDELION).noOcclusion()));
+    public static final RegistryObject<Block> ZINNIA_FLOWER_LPURPLE = registerBlock("zinnia_flower_lpurple",
+            () -> new FlowerBlock(MobEffects.REGENERATION, 4, BlockBehaviour.Properties.copy(Blocks.DANDELION).noOcclusion()),
+            ModCreativeModeTab.MR_TAB);
+
+    public static final RegistryObject<Block> POTTED_ZINNIA_FLOWER_LPURPLE = BLOCKS.register("potted_zinnia_flower_lpurple",
+            () -> new FlowerPotBlock(null, ModBlocks.ZINNIA_FLOWER_LPURPLE,
+                    BlockBehaviour.Properties.copy(Blocks.DANDELION).noOcclusion()));
+
+    public static final RegistryObject<Block> FOREVER_SUSAN_ASIATIC_LILY = registerBlock("forever_susan_asiatic_lily",
+            () -> new FlowerBlock(MobEffects.REGENERATION, 4, BlockBehaviour.Properties.copy(Blocks.DANDELION).noOcclusion()),
+            ModCreativeModeTab.MR_TAB);
+
+    public static final RegistryObject<Block> POTTED_FOREVER_SUSAN = BLOCKS.register("potted_forever_susan",
+            () -> new FlowerPotBlock(null, ModBlocks.FOREVER_SUSAN_ASIATIC_LILY,
+                    BlockBehaviour.Properties.copy(Blocks.DANDELION).noOcclusion()));
 
 
     //GLASS
