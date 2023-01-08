@@ -41,9 +41,13 @@
   "item.fac.ghost_shovel": "Ghost Shovel",
   "item.fac.ghost_axe": "Ghost Axe",
   "item.fac.crucifix": "Crucifix",
+  "item.fac.myrthian_crystal": "Myrthian Crystal",
 
 
-
+  "block.fac.zinnia_flower_pink": "Pink Zinnia",
+  "block.fac.zinnia_flower_yellow": "Yellow Zinnia",
+  "block.fac.zinnia_flower_lpurple": "Violet Zinnia",
+  "block.fac.zinnia_flower_gray": "Gray Zinnia",
   "block.fac.druid_altar":"Druid Altar",
   "block.fac.ghost_lamp": "Ghost Lamp",
   "block.fac.ghost_grass_block": "Ghost Grass Block",

@@ -72,10 +72,26 @@ public class MRDynamicAssignment {
 
                 dropSelf(ModBlocks.CHRISTMAS_WINDOW.get());
                 dropSelf(ModBlocks.DRUID_ALTAR.get());
+                dropSelf(ModBlocks.ZINNIA_FLOWER_LPURPLE.get());
+                dropSelf(ModBlocks.ZINNIA_FLOWER_PINK.get());
+                dropSelf(ModBlocks.ZINNIA_FLOWER_YELLOW.get());
+                dropSelf(ModBlocks.ZINNIA_FLOWER_GRAY.get());
+                dropSelf(ModBlocks.POTTED_ZINNIA_FLOWER_PINK.get());
+                dropSelf(ModBlocks.POTTED_ZINNIA_FLOWER_YELLOW.get());
+                dropSelf(ModBlocks.POTTED_ZINNIA_FLOWER_GRAY.get());
+                dropSelf(ModBlocks.POTTED_ZINNIA_FLOWER_LPURPLE.get());
+                dropPottedContents(ModBlocks.POTTED_ZINNIA_FLOWER_GRAY.get());
+                dropPottedContents(ModBlocks.POTTED_ZINNIA_FLOWER_YELLOW.get());
+                dropPottedContents(ModBlocks.POTTED_ZINNIA_FLOWER_LPURPLE.get());
+                dropPottedContents(ModBlocks.POTTED_ZINNIA_FLOWER_PINK.get());
             }
 
             protected Iterable<Block> getKnownBlocks() {
-                return Collections.singleton(ModBlocks.CHRISTMAS_WINDOW.get());
+                Block[] blocks = {ModBlocks.CHRISTMAS_WINDOW.get(), ModBlocks.DRUID_ALTAR.get(), ModBlocks.ZINNIA_FLOWER_LPURPLE.get()
+                ,ModBlocks.POTTED_ZINNIA_FLOWER_PINK.get(), ModBlocks.POTTED_ZINNIA_FLOWER_YELLOW.get(), ModBlocks.POTTED_ZINNIA_FLOWER_GRAY.get(),
+                        ModBlocks.POTTED_ZINNIA_FLOWER_LPURPLE.get(), ModBlocks.POTTED_ZINNIA_FLOWER_GRAY.get(), ModBlocks.POTTED_ZINNIA_FLOWER_YELLOW.get()
+                ,ModBlocks.POTTED_ZINNIA_FLOWER_LPURPLE.get(), ModBlocks.POTTED_ZINNIA_FLOWER_PINK.get()};
+                return List.of(blocks);
             }
 
 

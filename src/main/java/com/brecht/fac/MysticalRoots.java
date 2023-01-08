@@ -92,7 +92,7 @@ public class MysticalRoots {
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.SAKURA_SAPLING.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.SAKURA_LEAVES.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.ZINNIA_FLOWER_PINK.get(), RenderType.cutout());
-        ItemBlockRenderTypes.setRenderLayer(ModBlocks.POTTED_ZINNIA_FLOWER.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.POTTED_ZINNIA_FLOWER_PINK.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.ZINNIA_FLOWER_GRAY.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.POTTED_ZINNIA_FLOWER_GRAY.get(), RenderType.cutout());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.ZINNIA_FLOWER_YELLOW.get(), RenderType.cutout());

@@ -1,0 +1,6 @@
+{
+  "type": "fac:vegetal",
+  "biomes": "fac:flowery_plains",
+  "feature": "fac:zinnia_gray_placed",
+  "step": "vegetal_decoration"
+}

@@ -67,6 +67,24 @@ public class ModConfiguredFeatures {
                     new RandomPatchConfiguration(16,6,2,PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
                             new SimpleBlockConfiguration(BlockStateProvider.simple(ModBlocks.ORANGE_TULIP.get())))));
 
+    public static final Holder<ConfiguredFeature<RandomPatchConfiguration, ?>> ZINNIA_PINK =
+            FeatureUtils.register("flower_zinnia_pink", Feature.FLOWER,
+                    new RandomPatchConfiguration(12,7,3,PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
+                            new SimpleBlockConfiguration(BlockStateProvider.simple(ModBlocks.ZINNIA_FLOWER_PINK.get())))));
+    public static final Holder<ConfiguredFeature<RandomPatchConfiguration, ?>> ZINNIA_YELLOW =
+            FeatureUtils.register("flower_zinnia_yellow", Feature.FLOWER,
+                    new RandomPatchConfiguration(15,8,3,PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
+                            new SimpleBlockConfiguration(BlockStateProvider.simple(ModBlocks.ZINNIA_FLOWER_YELLOW.get())))));
+    public static final Holder<ConfiguredFeature<RandomPatchConfiguration, ?>> ZINNIA_LPURPLE =
+            FeatureUtils.register("flower_zinnia_lpurple", Feature.FLOWER,
+                    new RandomPatchConfiguration(15,8,3,PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
+                            new SimpleBlockConfiguration(BlockStateProvider.simple(ModBlocks.ZINNIA_FLOWER_LPURPLE.get())))));
+
+    public static final Holder<ConfiguredFeature<RandomPatchConfiguration, ?>> ZINNIA_GRAY =
+            FeatureUtils.register("flower_zinnia_gray", Feature.FLOWER,
+                    new RandomPatchConfiguration(18,4,3,PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
+                            new SimpleBlockConfiguration(BlockStateProvider.simple(ModBlocks.ZINNIA_FLOWER_GRAY.get())))));
+
 
 
     //ORES

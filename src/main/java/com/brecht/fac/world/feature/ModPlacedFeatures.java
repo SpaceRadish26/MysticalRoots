@@ -20,21 +20,38 @@ public class ModPlacedFeatures {
     public static final RegistryObject<PlacedFeature> GHOST_PLACED = PLACED_FEATURES.register("ghost_placed",
             () -> new PlacedFeature((Holder<ConfiguredFeature<?,?>>)(Holder<? extends ConfiguredFeature<?,?>>)
             ModConfiguredFeatures.GHOST_SPAWN, VegetationPlacements.treePlacement(
-                    PlacementUtils.countExtra(0, 0.2f, 1))));
+                    PlacementUtils.countExtra(7, 0.2f, 1))));
 
     public static final RegistryObject<PlacedFeature> SAKURA_PLACED = PLACED_FEATURES.register("sakura_placed",
             () -> new PlacedFeature((Holder<ConfiguredFeature<?,?>>)(Holder<? extends ConfiguredFeature<?,?>>)
             ModConfiguredFeatures.SAKURA_SPAWN, VegetationPlacements.treePlacement(
-                    PlacementUtils.countExtra(0, 0.2f, 1))));
+                    PlacementUtils.countExtra(4, 0.2f, 2))));
 
     public static final RegistryObject<PlacedFeature> PINK_ROSE_PLACED = PLACED_FEATURES.register("pink_rose_placed",
             () -> new PlacedFeature((Holder<ConfiguredFeature<?,?>>)(Holder<? extends ConfiguredFeature<?,?>>)
-            ModConfiguredFeatures.PINK_ROSE, List.of(RarityFilter.onAverageOnceEvery(25),
+            ModConfiguredFeatures.PINK_ROSE, List.of(RarityFilter.onAverageOnceEvery(10),
             InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome())));
     public static final RegistryObject<PlacedFeature> ORANGE_TULIP_PLACED = PLACED_FEATURES.register("orange_tulip_placed",
             () -> new PlacedFeature((Holder<ConfiguredFeature<?,?>>)(Holder<? extends ConfiguredFeature<?,?>>)
-            ModConfiguredFeatures.ORANGE_TULIP, List.of(RarityFilter.onAverageOnceEvery(25),
+            ModConfiguredFeatures.ORANGE_TULIP, List.of(RarityFilter.onAverageOnceEvery(15),
             InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome())));
+
+    public static final RegistryObject<PlacedFeature> ZINNIA_PINK_PLACED = PLACED_FEATURES.register("zinnia_pink_placed",
+            () -> new PlacedFeature((Holder<ConfiguredFeature<?,?>>)(Holder<? extends ConfiguredFeature<?,?>>)
+                    ModConfiguredFeatures.ZINNIA_PINK, List.of(RarityFilter.onAverageOnceEvery(15),
+                    InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome())));
+    public static final RegistryObject<PlacedFeature> ZINNIA_YELLOW_PLACED = PLACED_FEATURES.register("zinnia_yellow_placed",
+            () -> new PlacedFeature((Holder<ConfiguredFeature<?,?>>)(Holder<? extends ConfiguredFeature<?,?>>)
+                    ModConfiguredFeatures.ZINNIA_YELLOW, List.of(RarityFilter.onAverageOnceEvery(15),
+                    InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome())));
+    public static final RegistryObject<PlacedFeature> ZINNIA_LPURPLE_PLACED = PLACED_FEATURES.register("zinnia_lpurple_placed",
+            () -> new PlacedFeature((Holder<ConfiguredFeature<?,?>>)(Holder<? extends ConfiguredFeature<?,?>>)
+                    ModConfiguredFeatures.ZINNIA_LPURPLE, List.of(RarityFilter.onAverageOnceEvery(15),
+                    InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome())));
+    public static final RegistryObject<PlacedFeature> ZINNIA_GRAY_PLACED = PLACED_FEATURES.register("zinnia_gray_placed",
+            () -> new PlacedFeature((Holder<ConfiguredFeature<?,?>>)(Holder<? extends ConfiguredFeature<?,?>>)
+                    ModConfiguredFeatures.ZINNIA_GRAY, List.of(RarityFilter.onAverageOnceEvery(15),
+                    InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome())));
 
     //ORES
 

@@ -32,7 +32,7 @@
           }
         },
         {
-          "biome": "minecraft:dark_forest",
+          "biome": "fac:flowery_plains",
           "parameters": {
             "temperature": 0,
             "humidity": 0,

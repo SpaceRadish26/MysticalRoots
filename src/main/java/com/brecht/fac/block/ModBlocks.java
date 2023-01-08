@@ -106,7 +106,7 @@ public class ModBlocks {
             () -> new FlowerBlock(MobEffects.REGENERATION, 4, BlockBehaviour.Properties.copy(Blocks.DANDELION).noOcclusion()),
             ModCreativeModeTab.MR_TAB);
 
-    public static final RegistryObject<Block> POTTED_ZINNIA_FLOWER = BLOCKS.register("potted_zinnia_flower",
+    public static final RegistryObject<Block> POTTED_ZINNIA_FLOWER_PINK = BLOCKS.register("potted_zinnia_flower",
             () -> new FlowerPotBlock(null, ModBlocks.ZINNIA_FLOWER_PINK,
                     BlockBehaviour.Properties.copy(Blocks.DANDELION).noOcclusion()));
     public static final RegistryObject<Block> ZINNIA_FLOWER_YELLOW = registerBlock("zinnia_flower_yellow",

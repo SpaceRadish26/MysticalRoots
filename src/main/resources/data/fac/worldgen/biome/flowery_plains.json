@@ -1,24 +1,17 @@
 {
-  "temperature": 0.7,
-  "downfall": 0.8,
+  "temperature": 0.8,
+  "downfall": 0.4,
   "precipitation": "rain",
   "effects": {
-    "sky_color": 7907327,
+    "sky_color": 6001659,
     "fog_color": 12638463,
-    "water_color": 13939175,
+    "water_color": 4159204,
     "water_fog_color": 329011,
-    "grass_color": 12391608,
     "mood_sound": {
       "sound": "minecraft:ambient.cave",
       "tick_delay": 6000,
       "block_search_extent": 8,
       "offset": 2
-    },
-    "music": {
-      "sound": "minecraft:music.overworld.jungle_and_forest",
-      "min_delay": 12000,
-      "max_delay": 24000,
-      "replace_current_music": false
     }
   },
   "spawners": {
@@ -57,14 +50,74 @@
         "maxCount": 4
       },
       {
-        "type": "minecraft:wolf",
+        "type": "minecraft:horse",
         "weight": 5,
-        "minCount": 4,
-        "maxCount": 4
+        "minCount": 2,
+        "maxCount": 6
+      },
+      {
+        "type": "minecraft:donkey",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 3
       }
     ],
     "misc": [],
     "monster": [
+      {
+        "type": "fac:ghost",
+        "weight": 60,
+        "minCount": 3,
+        "maxCount": 3
+      },
+      {
+        "type": "minecraft:spider",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:zombie",
+        "weight": 95,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:zombie_villager",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:skeleton",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:creeper",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:slime",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:enderman",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:witch",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 1
+      }
     ],
     "underground_water_creature": [
       {
@@ -81,8 +134,7 @@
   "carvers": {
     "air": [
       "minecraft:cave",
-      "minecraft:cave_extra_underground",
-      "minecraft:canyon"
+      "minecraft:cave_extra_underground"
     ]
   },
   "features": [
@@ -134,9 +186,12 @@
       "minecraft:spring_water"
     ],
     [
-      "minecraft:glow_lichen",
-      "minecraft:forest_flowers",
-      "minecraft:patch_grass_forest",
+      "minecraft:patch_tall_grass_2",
+      "minecraft:flower_plains",
+      "minecraft:patch_grass_plain",
+      "minecraft:brown_mushroom_normal",
+      "minecraft:red_mushroom_normal",
+      "minecraft:patch_sugar_cane",
       "minecraft:patch_pumpkin"
     ],
     [
