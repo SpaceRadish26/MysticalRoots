@@ -5,6 +5,7 @@ import com.brecht.fac.block.custom.*;
 import com.brecht.fac.item.ModCreativeModeTab;
 import com.brecht.fac.item.ModItems;
 import com.brecht.fac.world.feature.tree.GhostTreeGrower;
+import com.brecht.fac.world.feature.tree.RedwoodTreeGrower;
 import com.brecht.fac.world.feature.tree.SakuraTreeGrower;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.BlockItem;
@@ -47,6 +48,17 @@ public class ModBlocks {
             () -> new LeavesBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES)), ModCreativeModeTab.MR_TAB);
     public static final RegistryObject<Block> SAKURA_SAPLING = registerBlock("sakura_sapling",
             () -> new SaplingBlock(new SakuraTreeGrower(),BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)), ModCreativeModeTab.MR_TAB);
+
+    public static final RegistryObject<Block> REDWOOD_LOG = registerBlock("redwood_log",
+            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG).strength(0.4f)), ModCreativeModeTab.MR_TAB);
+    public static final RegistryObject<Block> REDWOOD_WOOD = registerBlock("redwood_wood",
+            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).strength(0.4f)), ModCreativeModeTab.MR_TAB);
+    public static final RegistryObject<Block> REDWOOD_PLANKS = registerBlock("redwood_planks",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS)), ModCreativeModeTab.MR_TAB);
+    public static final RegistryObject<Block> REDWOOD_LEAVES = registerBlock("redwood_leaves",
+            () -> new LeavesBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES)), ModCreativeModeTab.MR_TAB);
+    public static final RegistryObject<Block> REDWOOD_SAPLING = registerBlock("redwood_sapling",
+            () -> new SaplingBlock(new RedwoodTreeGrower(),BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)), ModCreativeModeTab.MR_TAB);
 
     //ORES
     public static final RegistryObject<Block> GHOST_ORE = registerBlock("ghost_ore",

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "fac:block/redwood_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "fac:block/redwood_wood"
+    },
+    "axis=z": {
+      "model": "fac:block/redwood_wood",
+      "x": 90
+    }
+  }
+}

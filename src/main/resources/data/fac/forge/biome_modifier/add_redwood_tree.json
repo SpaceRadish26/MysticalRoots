@@ -1,0 +1,6 @@
+{
+  "type": "fac:vegetal",
+  "biomes": "fac:redwood_forest",
+  "feature": "fac:redwood_placed",
+  "step": "vegetal_decoration"
+}

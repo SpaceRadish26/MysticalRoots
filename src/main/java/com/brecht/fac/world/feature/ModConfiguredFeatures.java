@@ -14,7 +14,9 @@ import net.minecraft.world.level.levelgen.feature.configurations.*;
 import net.minecraft.world.level.levelgen.feature.featuresize.TwoLayersFeatureSize;
 import net.minecraft.world.level.levelgen.feature.foliageplacers.AcaciaFoliagePlacer;
 import net.minecraft.world.level.levelgen.feature.foliageplacers.BlobFoliagePlacer;
+import net.minecraft.world.level.levelgen.feature.foliageplacers.MegaPineFoliagePlacer;
 import net.minecraft.world.level.levelgen.feature.stateproviders.BlockStateProvider;
+import net.minecraft.world.level.levelgen.feature.trunkplacers.GiantTrunkPlacer;
 import net.minecraft.world.level.levelgen.feature.trunkplacers.StraightTrunkPlacer;
 import net.minecraft.world.level.levelgen.placement.PlacedFeature;
 
@@ -55,6 +57,22 @@ public class ModConfiguredFeatures {
                             0.2F)), SAKURA_CHECKED));
 
 
+    //REDWOOD
+    public static final Holder<ConfiguredFeature<TreeConfiguration, ?>> REDWOOD_TREE =
+            FeatureUtils.register("redwood", Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
+                    BlockStateProvider.simple(ModBlocks.REDWOOD_LOG.get()),
+                    new GiantTrunkPlacer(35, 45, 26),
+                    BlockStateProvider.simple(ModBlocks.REDWOOD_LEAVES.get()),
+                    new MegaPineFoliagePlacer(ConstantInt.of(8), ConstantInt.of(0), ConstantInt.of(7)),
+                    new TwoLayersFeatureSize(1, 0, 2)).build());
+
+    public static final Holder<PlacedFeature> REDWOOD_CHECKED = PlacementUtils.register("redwood_checked", REDWOOD_TREE,
+            PlacementUtils.filteredByBlockSurvival(ModBlocks.REDWOOD_SAPLING.get()));
+
+    public static final Holder<ConfiguredFeature<RandomFeatureConfiguration, ?>> REDWOOD_SPAWN =
+            FeatureUtils.register("redwood_spawn", Feature.RANDOM_SELECTOR,
+                    new RandomFeatureConfiguration(List.of(new WeightedPlacedFeature(REDWOOD_CHECKED,
+                            0.05F)), REDWOOD_CHECKED));
 
 
     //FLOWERS

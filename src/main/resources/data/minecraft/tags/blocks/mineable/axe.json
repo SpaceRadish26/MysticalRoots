@@ -11,7 +11,9 @@
     "fac:sakura_wood",
     "fac:sakura_planks",
     "fac.sakura_slab",
-    "fac.sakura_stairs"
-
+    "fac.sakura_stairs",
+    "fac:redwood_log",
+    "fac:redwood_planks",
+    "fac:redwood_wood"
   ]
 }

@@ -44,6 +44,7 @@
   "item.fac.myrthian_crystal": "Myrthian Crystal",
 
 
+  "block.fac.forever_susan_asiatic_lily": "Forever Susan Asiatic Lily",
   "block.fac.zinnia_flower_pink": "Pink Zinnia",
   "block.fac.zinnia_flower_yellow": "Yellow Zinnia",
   "block.fac.zinnia_flower_lpurple": "Violet Zinnia",
@@ -75,6 +76,11 @@
   "block.fac.lemon_block": "Lemon Block",
   "block.fac.speedy_block": "Block of Speed",
   "block.fac.ghost_grass": "Ghost Grass",
+  "block.fac.redwood_leaves": "Redwood Leaves",
+  "block.fac.redwood_sapling": "Redwood Sapling",
+  "block.fac.redwood_log": "Redwood Log",
+  "block.fac.redwood_planks": "Redwood Planks",
+  "block.fac.redwood_wood": "Redwood",
 
   "itemGroup.myr": "Mystical Roots"
 }

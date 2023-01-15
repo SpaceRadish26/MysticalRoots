@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures" : {
-    "layer0": "fac:item/banana"
+    "layer0": "fac:item/myrthia_crystal"
   }
 }

@@ -64,12 +64,7 @@
     ],
     "misc": [],
     "monster": [
-      {
-        "type": "fac:ghost",
-        "weight": 60,
-        "minCount": 3,
-        "maxCount": 3
-      },
+
       {
         "type": "minecraft:spider",
         "weight": 100,
@@ -139,9 +134,7 @@
   },
   "features": [
     [],
-    [
-      "minecraft:lake_lava_underground"
-    ],
+    [],
     [
       "minecraft:amethyst_geode"
     ],
@@ -176,18 +169,13 @@
       "minecraft:ore_lapis",
       "minecraft:ore_lapis_buried",
       "minecraft:ore_copper",
-      "minecraft:underwater_magma",
-      "minecraft:disk_sand",
-      "minecraft:disk_clay",
-      "minecraft:disk_gravel"
+      "minecraft:underwater_magma"
     ],
     [],
     [
       "minecraft:spring_water"
     ],
     [
-      "minecraft:flower_plains",
-      "minecraft:patch_grass_plain",
       "minecraft:patch_pumpkin"
     ],
     [
