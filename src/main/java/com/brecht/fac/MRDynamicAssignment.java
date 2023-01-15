@@ -51,7 +51,7 @@ public class MRDynamicAssignment {
         protected void addTags() {
             tag(BlockTags.MINEABLE_WITH_SHOVEL).add(ModBlocks.GHOST_GRASS_BLOCK.get());
 
-            //super.addTags();
+            super.addTags();
         }
     }
     public static class LootTable extends LootTableProvider {

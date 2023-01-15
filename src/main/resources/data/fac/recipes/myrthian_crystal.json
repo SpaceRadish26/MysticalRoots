@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " K ",
+    "#N#",
+    " K "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:iron_ingot"
+    },
+    "N": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "K": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "fac:myrthian_crystal"
+  }
+}

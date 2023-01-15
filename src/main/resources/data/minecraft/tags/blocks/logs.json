@@ -3,6 +3,9 @@
   "values": [
     "#fac:ghost_logs",
     "#fac:sakura_logs",
-    "#fac:redwood_logs"
+    "#fac:redwood_logs",
+    "fac:redwood_log",
+    "fac:redwood_wood"
+
   ]
 }
